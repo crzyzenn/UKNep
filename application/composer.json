@@ -1,0 +1,6 @@
+{
+    "name": "crzyzen/application",
+    "require": {
+        "twbs/bootstrap": "^4.1"
+    }
+}

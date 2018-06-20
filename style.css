@@ -1,0 +1,12 @@
+@import "bootstrap.css"; 
+
+
+.carousel-inner img{
+	width: 100%; 
+}
+
+.navbar-fixed{
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
