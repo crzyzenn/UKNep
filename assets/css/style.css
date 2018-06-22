@@ -79,3 +79,25 @@
 .blank{
 	min-height: 0;
 }
+
+.social-links{
+	 margin-right: 10px;
+}
+
+.social-links li{
+	 margin-right: 5px;
+}
+
+
+.social-links a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.shadow-div{
+    box-shadow: 0px 0px 20px 0px #00000059;
+    padding: .5em;
+
+}
+
+

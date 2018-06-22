@@ -21,33 +21,40 @@
 		$('body').fadeIn(500);
 
 	</script>
-	
-	
-		<nav class="navbar navbar-fixed navbar-expand-md navbar-dark bg-default" id = "navbar">	
+		<nav class="navbar navbar-expand-md navbar-light navbar-shadow bg-white" id = "navbar">	
 		<a class="navbar-brand" href="home"><img src="assets/images/Logo.png" class = "main-logo"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rv-header" aria-controls="rv-header" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
 		<div class="collapse navbar-collapse" id="rv-header">
+			<ul class="navbar-nav float-md-right social-links">			
+					<li class="nav-item" style = "color:#4267b2;"><a target="_blank" href="http://www.facebook.com"><span class="fab fa-facebook"></span></a></li>
+					<li class="nav-item" style = "color:#55acee;"><a target="_blank" href="http://twitter.com"><span class="fab fa-twitter-square"></span></a></li>
+					<li class="nav-item" style = "color:#dc483b;"><a target="_blank" href="http://plus.google.com"><span class="fab fa-google-plus-square"></span></a></li>			
+			</ul>
+			<br>
 			<ul class="navbar-nav float-md-right">
 				<li class="nav-item">
-					<a class="nav-link" id = "home" href="home">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link home" id = "home" href="home">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id = "overview" href="">Basic Overview</a>
+					<a class="nav-link overview" id = "overview" href="">About Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id = "services" href = "">Services</a>
+					<a class="nav-link services" id = "services" href = "">Services</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id = "director" href="">Director's Corner</a>
+					<a class="nav-link director" id = "director" href="">Director's Corner</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id = "mission" href="">Mission</a>
+					<a class="nav-link mission" id = "mission" href="">Mission</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id = "contact" href="">Contact</a>
+					<a class="nav-link contact" id = "contact" href="">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link gallery" id = "gallery" href="">Gallery</a>
 				</li>
 				<!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -78,12 +85,12 @@
 	
 	<footer>
         <div class="jumbotron jumbotron-fluid bg-dark text-subtle">
-			<div class="container text-center">
-				<h1 class="display-3">"COME HOME TO QUALITY"</h1>
-				<p class="text-muted">R.V. Consultancy & Construction Private Limited</p>
+			<div class="container">
+<!-- 				<h1 class="display-3">"COME HOME TO QUALITY"</h1>
+				<p class="text-muted">R.V. Consultancy & Construction Private Limited</p> -->
 
 				<!-- Images Social Icons -->
-				<div class = "row text-center">
+				<!-- <div class = "row text-center">
 					<div class = 'col-md-12' style="font-size:1.5em;">
 						<span class="fab fa-facebook"></span>
 						<span class="fab fa-instagram"></span>
@@ -92,12 +99,115 @@
 					
 				</div>
 				<br>
-				<br>
-				<p class = "text-muted">
-					<a href="#contactDiv" class = "page-link text-muted">Contact Us</a>
+				<br> -->
+
+				<div class="row text-muted">
 					
-					<p class="text-muted">All Rights Reserved</p>
-				</p>
+					<div class = 'col-md-4 text-left' id = "contactDiv">						
+						<p class = "text-muted">
+							Contact:<br>							
+							Mobile: +977-9851004002, +977-9818154134 	<br>	
+							        <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													
+													<h5 class="modal-title font-weight-bold" id="gridModalLabel">Contact Information</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+												</div>
+												<div class="modal-body">
+													<table class="table table-hover text-left table-inverse">				
+														<tbody>
+															<tr>
+																<td>Address</td>
+																<td>
+																	<p>1/19 Kha, Bhimmukteswor,
+																	Ward No: - 11, Kalimati,
+																	Kathmandu, Nepal</p>
+																</td>
+															</tr>
+															<tr>
+																<td>Email</td>
+																<td>
+																	<p>example@test.com</p>
+																</td>
+															</tr>
+															<tr>
+																<td>Website</td>
+																<td>
+																	<p>example.com</p>
+																</td>
+															</tr>
+															<tr>
+																<td>Mobile</td>
+																<td>
+																	<p>
+																		+977-9851004002, +977-9818154134
+																	</p>
+																</td>
+															</tr>
+															<tr>
+																<td>Telephone</td>
+																<td>
+																	<p>
+																		+977-1-4270678, 4275185
+																	</p>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+													<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="bd-example bd-example-padded-bottom">
+										<button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#gridSystemModal">
+											<i class="fas fa-info"></i>
+										</button>
+									</div>
+
+
+						</p>						
+					</div>
+					<div class = 'col-md-3 text-left'>											
+						<p class="text-muted">&copy <?php echo date('Y'); ?> | All Rights Reserved</p>	
+					</div>
+					<div class = 'col-md-5 text-left'>						
+						<ul class="list-inline footerLinks">
+							<li class="list-inline-item">
+								<a href="home" id = "home" class = "text-muted">Home</a> | 
+							</li>
+							<li class="list-inline-item">
+								<a class="text-muted" id = "overview" href="">About Us</a> | 
+							</li>
+							<li class="list-inline-item">
+								<a class="text-muted" id = "contact" href="">Contact</a> | 
+							</li>
+							<li class="list-inline-item">
+								<a class="text-muted" id = "services" href="">Services</a> | 
+							</li>
+							<li class="list-inline-item">
+								<a class="text-muted" id = "mission" href="">Mission</a> | 
+							</li>
+							<li class="list-inline-item">
+								<a class="text-muted" id = "gallery" href="">Gallery</a>
+							</li>
+					<!-- 		<li class="list-inline-item">Contact | </li>
+							<li class="list-inline-item">Services | </li>
+							<li class="list-inline-item">Mission | </li>
+							<li class="list-inline-item">Gallery</li> -->
+						</ul>		
+			
+					</div>
+
+				</div>
+
+
+				
 			</div>
 		</div>
 	</footer>

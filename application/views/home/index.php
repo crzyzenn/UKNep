@@ -3,16 +3,17 @@
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 			<li data-target="#carousel-example-generic" data-slide-to="0"></li>
 			<li data-target="#carousel-example-generic" data-slide-to="0"></li>
+
 		</ol>
 		<div class="carousel-inner" role="listbox">			        
 			<div class="carousel-item active">
-				<img src="assets/images/Background.png" alt="First slide">
+				<img src="assets/images/test3.png" alt="First slide">
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/Background-2.png" alt="First slide">
+				<img src="assets/images/test2.png" alt="First slide">
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/Background-3.png" alt="First slide">
+				<img src="assets/images/test4.png" alt="First slide">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carousel-example-generic" data-slide="prev">
@@ -46,23 +47,24 @@
 		<p class = "display-4 text-center">WE OFFER:</p>
 		<hr>
 		<div class="row">
-			<div class="col-md-4 distinct">
+			<div class="col-md-4 distinct shadow-div">
 				
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/1.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="assets/images/we1.png" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Engineering/Design Layout of Buildings (Commercial/Office/Residential/High Rise, Bank, Hospital), Hotels/Resorts
+				            	
 							</p>
 				        </div>
 				    </div>
 				
 										
 			</div>
-			<div class="col-md-4 distinct">
+			<div class="col-md-4 distinct shadow-div">
 				
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/2.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="assets/images/we2.png" width="100%" 				    alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Civil work/Plumbing & Sanitary Work/ Interior & Exterior works
@@ -72,10 +74,10 @@
 				
 										
 			</div>
-			<div class="col-md-4 distinct">
+			<div class="col-md-4 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
-			        <img src="assets/images/3.png" width="100%" 				    alt="" class="img-responsive">
+			        <img src="assets/images/we3.png" width="100%" 				    alt="" class="img-responsive">
 			        <div class="caption">
 			            <p>
 			            	Remodelling/Renovation/Retrofitting of Residential/Commercial/Office Buildings
@@ -84,6 +86,128 @@
 			        </div>
 			    </div>									
 			</div>
+			<div class="col-md-4 distinct shadow-div">
+				
+			    <div class="thumbnail text-center">
+			        <img src="assets/images/we10.png" width="100%" 				    alt="" class="img-responsive">
+			        <div class="caption">
+			            <p>
+			            	Electrification work/ Street Light Poles, High Mast
+
+
+						</p>
+			        </div>
+			    </div>									
+			</div>
+			<div class="col-md-4 distinct shadow-div">
+				
+			    <div class="thumbnail text-center">
+			        <img src="assets/images/we11.png" width="100%" 				    alt="" class="img-responsive">
+			        <div class="caption">
+			            <p>
+			            	Fencing solutions/ Earthing & Lightning Protection Solutions
+
+
+						</p>
+			        </div>
+			    </div>									
+			</div>
+			<div class="col-md-4 distinct shadow-div">
+				
+			    <div class="thumbnail text-center">
+			        <img src="assets/images/we12.png" width="100%" 				    alt="" class="img-responsive">
+			        <div class="caption">
+			            <p>
+			            	Electrical/Civil/Mechanical Works for Industries/Power Plants
+
+
+						</p>
+			        </div>
+			    </div>									
+			</div>
+			<div class="col-md-4 distinct shadow-div">
+				
+			    <div class="thumbnail text-center">
+			        <img src="assets/images/we4.png" width="100%" 				    alt="" class="img-responsive">
+			        <div class="caption">
+			            <p>
+			            	Substation Work – Civil/Electrical/Mechanical
+
+
+
+						</p>
+			        </div>
+			    </div>									
+			</div>
+			<div class="col-md-4 distinct shadow-div">
+				
+			    <div class="thumbnail text-center">
+			        <img src="assets/images/we5.png" width="100%" 				    alt="" class="img-responsive">
+			        <div class="caption">
+			            <p>
+			            	Solar – Civil/Structure/ Module Erection, AC/DC Work
+
+
+
+						</p>
+			        </div>
+			    </div>									
+			</div>
+			<div class="col-md-4 distinct shadow-div">
+				
+			    <div class="thumbnail text-center">
+			        <img src="assets/images/we6.png" width="100%" 				    alt="" class="img-responsive">
+			        <div class="caption">
+			            <p>
+			            	Panel ( LV/MV) – Erection, Testing & Commissioning
+
+
+
+						</p>
+			        </div>
+			    </div>									
+			</div>
+			<div class="col-md-4 distinct shadow-div">
+				
+			    <div class="thumbnail text-center">
+			        <img src="assets/images/we7.png" width="100%" 				    alt="" class="img-responsive">
+			        <div class="caption">
+			            <p>
+			            	Cable Trays/Raceways
+
+
+
+						</p>
+			        </div>
+			    </div>									
+			</div>
+			<div class="col-md-4 distinct shadow-div">
+				
+			    <div class="thumbnail text-center">
+			        <img src="assets/images/we8.png" width="100%" 				    alt="" class="img-responsive">
+			        <div class="caption">
+			            <p>
+			            	Cabling System
+
+
+
+						</p>
+			        </div>
+			    </div>									
+			</div>
+			<div class="col-md-4 distinct shadow-div">
+				
+			    <div class="thumbnail text-center">
+			        <img src="assets/images/we9.png" width="100%" 				    alt="" class="img-responsive">
+			        <div class="caption">
+			            <p>
+			            	Transformers – ETC of Power Transformers, Station Transformers, Distribution Transformers			            	
+
+						</p>
+			        </div>
+			    </div>									
+			</div>
+
 			<br><br>
 		</div>
 	</div>
@@ -200,7 +324,7 @@
 
 
 	<!-- Contact -->
-	 <div class="jumbotron jumbotron-fluid" id = "contactDiv">
+<!-- 	 <div class="jumbotron jumbotron-fluid" id = "contactDiv">
 		<div class="container">
 			<p class="display-4 text-center">CONTACT INFORMATION</p><hr><br>
 	<table class="table table-hover text-left table-inverse">				
@@ -237,5 +361,5 @@
 				</tbody>
 			</table>
 		</div>
-	</div>
+	</div> -->
 

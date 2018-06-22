@@ -233,6 +233,7 @@ table {
 
 .thumbnail {
     position: relative;
+    overflow-y: scroll;
 }
 
 .caption {
@@ -243,7 +244,9 @@ table {
   color: white;
   padding: 1em;
   background-color: rgba(0, 0, 0, 0.62);
+  height: auto;
 
+  /*transition: height 0.5s; */
 }
 
 
@@ -5784,6 +5787,7 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
+  border-bottom: 1em solid #212529;
 }
 
 .carousel-item {
