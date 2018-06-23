@@ -1,15 +1,15 @@
 
 $(window).on('load', function(){
 	// Disable all active links on navbar
-	disable_active_links();
+	// disable_active_links();
 
 	// Set hide animation status to hide
 	var hideEvent = 1;
 
 	// Toggle active classes on the URL clicked
 	$('#rv-header').on('click', '.nav-link', function(event){
-		// Only prevent button clicks if the button's not home
-		if(this.id != "home"){
+		// Prevent some button clicks
+		if(this.id != "home" && this.id != "director" && this.id != "gallery"){
 			event.preventDefault();
 		}
 
@@ -19,14 +19,20 @@ $(window).on('load', function(){
 		// DIV to go to
 		var section = "#" + this.id + "Div"; 
 
-		// Auto scroll to that div
-		$('html, body').animate({
-		    scrollTop: ($(section).offset().top - 100)
-		},500);
+		try{
+			// Auto scroll to that div
+			$('html, body').animate({
+			    scrollTop: ($(section).offset().top - 100)
+			},500);
 
 
-		// Set active class to the link clicked
-		$(this).closest('li').attr('class', 'nav-item active');
+			// Set active class to the link clicked
+			$(this).closest('li').attr('class', 'nav-item active');	
+		}
+		catch(err){
+			window.location = "home"; 
+		}
+		
 	}); 
 		
 
@@ -108,4 +114,22 @@ $(window).on('load', function(){
 			$(el).attr('class', 'nav-item');
 		});		
 	}
+
+
+	// Hover action for director's links
+	$('.director-link').hover(function() {
+		var elem = $(this); 
+		elem.attr('class', 'col-sm-3 text-center bg-dark text-muted director-link');
+	}, function() {
+		var elem = $(this); 
+		
+		elem.attr('class', 'col-sm-3 text-center bg-light text-muted director-link');
+	});
+
+
+
+
+
+
+
 }); 

@@ -27,17 +27,27 @@
 
     <div class="jumbotron jumbotron-fluid" id = "overviewDiv">
         <div class="container">
-     
+     		
 		  <div class="row">
-		    <div class="col-sm-4 text-center" style="border-right: 1px solid black;">
-		     	<img src="assets/images/Basic.png" width="60%">
-		    </div>
-
-		    <div class="col-sm-8" style="padding: 2em; line-height: 2em">
+		  	  <div class="col-sm-6 text-left bg-white" style="padding: 2em; line-height: 2em">
 		     Having started as a brainchild of Engineering Professionals, we at RV Consultancy & Construction (Formerly Known as RKD Architect & Collaborate Pvt. Ltd) today are one of the fastest growing service providers in different states of Nepal. Even though we are young in Nepal’s market for providing engineering solution (Consultancy/Construction), we appreciate the fact that we are an experienced team.
 			 We consistently strive to deliver excellence and we welcome innovative ideas and young genius minds. We treat our clients as Partners Where We offer a collection of benefits to our clients that ranges from Engineering, Designing, Construction, Installation and several operational activities.
-  
 		    </div>
+
+		    <div class="col-sm-3 text-center bg-light text-muted director-link">
+
+				    <br>	     	
+			     	<a href=""><img src="assets/images/vivek.png" width="100%"></a>	     	
+			     	<p>Vivek Ranjan</p>					
+					<p class="text-gray-dark">Graduate in Electrical & Electronics Engineering from India</p>
+		    </div>
+		    
+		    <div class="col-sm-3 text-center text-muted bg-light director-link">		
+		    <br>	     			 
+		     	<a href=""><img src="assets/images/rajesh.png" width="100%"></a>
+ 				<p>Rajesh Kr. Das</p>		
+				<p class="text-gray-dark">Master in Architect from TASI (Tashkent, Uzbekistan) </p>
+		    </div>		    
 		  </div>
 		</div>
 	</div>
@@ -212,92 +222,11 @@
 		</div>
 	</div>
 
-    <div class="jumbotron jumbotron-fluid" id = "directorDiv">
-		<div class="container">
-			<h4 class="display-4 text-center">DIRECTOR'S CORNER</h4>
-			<p class="text-muted text-center">Innovative minds behind RV Consultancy & Construction</p>
-			<hr>
-			<br><br>
-			<div class="row">
-				<div class = "col-sm-6 text-center distinct">
-					<p>
-						<img src="assets/images/vivek.png" width="50%">
-					</p>
-					<br>
-					<p>Vivek Ranjan</p>
-					<!-- <br> -->
-					<p class="text-gray-dark">Graduate in Electrical & Electronics Engineering from India</p>
-
-
-			        <div id="modal-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									
-									<h4 class="modal-title" id="modal-1">Modal title</h4>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								</div>
-								<div class="modal-body">
-									
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Save changes</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="bd-example bd-example-padded-bottom">
-						<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal-1">
-							Learn more
-						</button>
-					</div>
-
-
-				</div>
-				<div class = "col-sm-6 text-center distinct">
-					<p>
-						<img src="assets/images/rajesh.png" width="50%">
-					</p>
-					<br>
-					<p>Rajesh Kr. Das</p>
-					<!-- <br> -->
-					<p class="text-gray-dark">Master in Architect from TASI (Tashkent, Uzbekistan) </p>
-
-					<div id="modal-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
-						<div class="modal-dialog" role="document">
-							<div class="modal-content">
-								<div class="modal-header">
-									
-									<h4 class="modal-title" id="gridModalLabel">Modal title</h4>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								</div>
-								<div class="modal-body">
-									
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Save changes</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="bd-example bd-example-padded-bottom">
-						<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#modal-2">
-							Learn more
-						</button>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-	</div>
-
+    
 
 
 	<!-- Mission Area -->
-    <div class="jumbotron jumbotron-fluid bg-white" id = "missionDiv">
+    <div class="jumbotron jumbotron-fluid bg-faded" id = "missionDiv">
 		<div class="container">
 			<p class="display-4 text-center">OUR MISSION</p>
 			<hr>

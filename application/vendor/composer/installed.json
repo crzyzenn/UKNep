@@ -51,5 +51,87 @@
             "sass",
             "web"
         ]
+    },
+    {
+        "name": "components/jquery",
+        "version": "3.3.1",
+        "version_normalized": "3.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jquery.git",
+            "reference": "459648cda77875519c5da3ae1dd0ed5d170aa649"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jquery/zipball/459648cda77875519c5da3ae1dd0ed5d170aa649",
+            "reference": "459648cda77875519c5da3ae1dd0ed5d170aa649",
+            "shasum": ""
+        },
+        "time": "2018-03-04T13:23:48+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "scripts": [
+                    "jquery.js"
+                ],
+                "files": [
+                    "jquery.min.js",
+                    "jquery.min.map",
+                    "jquery.slim.js",
+                    "jquery.slim.min.js",
+                    "jquery.slim.min.map"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "JS Foundation and other contributors"
+            }
+        ],
+        "description": "jQuery JavaScript Library",
+        "homepage": "http://jquery.com"
+    },
+    {
+        "name": "nickdekruijk/lightbox.js",
+        "version": "0.0.2",
+        "version_normalized": "0.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nickdekruijk/lightbox.js.git",
+            "reference": "4689041dac58e7a4e983c590a32b825d051691dc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nickdekruijk/lightbox.js/zipball/4689041dac58e7a4e983c590a32b825d051691dc",
+            "reference": "4689041dac58e7a4e983c590a32b825d051691dc",
+            "shasum": ""
+        },
+        "require": {
+            "components/jquery": "*"
+        },
+        "time": "2018-04-18T12:27:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nick de Kruijk",
+                "email": "git@nickdekruijk.nl"
+            }
+        ],
+        "description": "A simple jQuery lightbox plugin",
+        "keywords": [
+            "enlager",
+            "jquery",
+            "lightbox"
+        ]
     }
 ]

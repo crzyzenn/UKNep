@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Contact extends CI_Controller {
+class Director extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,8 +20,8 @@ class Contact extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['title'] = 'RV | Contact'; 
-		$data['view'] = $this->load->view('home/contact', "", TRUE); 
+		$data['title'] = 'RV | Directors'; 
+		$data['content'] = $this->load->view('home/director', "", TRUE); 
 		$this->load->view('template', $data); 
 
 		// $this->load->view('template', $data);

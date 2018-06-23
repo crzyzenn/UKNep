@@ -10,6 +10,14 @@
 	
 	<script type="text/javascript" src="assets/js/bootstrap.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Gallery -->
+	<link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+	<!-- <link href='assets/css/demo.css' rel='stylesheet' type='text/css'> -->
+
+
+
+
 </head>
 
 
@@ -36,26 +44,72 @@
 			<br>
 			<ul class="navbar-nav float-md-right">
 				<li class="nav-item">
-					<a class="nav-link home" id = "home" href="home">Home <span class="sr-only">(current)</span></a>
+					<a class="nav-link" id = "home" href="home">Home <span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link overview" id = "overview" href="">About Us</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link services" id = "services" href = "">Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link director" id = "director" href="">Director's Corner</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link mission" id = "mission" href="">Mission</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link contact" id = "contact" href="">Contact</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link gallery" id = "gallery" href="">Gallery</a>
-				</li>
+
+				<!-- Activate hyperlinks on pages except home -->
+				<?php if (uri_string() == "director"): ?>
+					<li class="nav-item">
+						<a class="nav-link" id = "overview" href="">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "services" href = "">Services</a>
+					</li>				
+					<li class="nav-item">
+						<a class="nav-link" id = "mission" href="">Mission</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Contact</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" id = "director" href="director">Director's Corner</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "gallery" href="gallery">Gallery</a>
+					</li>
+
+
+				<?php elseif (uri_string() == "gallery"): ?>
+					<li class="nav-item">
+						<a class="nav-link" id = "overview" href="">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "services" href = "">Services</a>
+					</li>				
+					<li class="nav-item">
+						<a class="nav-link" id = "mission" href="">Mission</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "director" href="director">Director's Corner</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" id = "gallery" href="gallery">Gallery</a>
+					</li>
+
+				<?php else: ?>
+					<li class="nav-item">
+						<a class="nav-link" id = "overview" href="">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "services" href = "">Services</a>
+					</li>				
+					<li class="nav-item">
+						<a class="nav-link" id = "mission" href="">Mission</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "director" href="director">Director's Corner</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "gallery" href="gallery">Gallery</a>
+					</li>
+
+				<?php endif; ?>
 				<!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
 					<div class="dropdown-menu" aria-labelledby="dropdown04">
@@ -70,6 +124,9 @@
 			</form> -->
 		</div>
 	</nav>
+
+
+
 
 
 	<!-- Content Area -->
@@ -210,10 +267,58 @@
 				
 			</div>
 		</div>
-	</footer>
+	</footer>	
+	<script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
+	<script>
+		$(function(){
+			var $gallery = $('.gallery a').simpleLightbox();
 
+			$gallery.on('show.simplelightbox', function(){
+				console.log('Requested for showing');
+			})
+			.on('shown.simplelightbox', function(){
+				console.log('Shown');
+			})
+			.on('close.simplelightbox', function(){
+				console.log('Requested for closing');
+			})
+			.on('closed.simplelightbox', function(){
+				console.log('Closed');
+			})
+			.on('change.simplelightbox', function(){
+				console.log('Requested for change');
+			})
+			.on('next.simplelightbox', function(){
+				console.log('Requested for next');
+			})
+			.on('prev.simplelightbox', function(){
+				console.log('Requested for prev');
+			})
+			.on('nextImageLoaded.simplelightbox', function(){
+				console.log('Next image loaded');
+			})
+			.on('prevImageLoaded.simplelightbox', function(){
+				console.log('Prev image loaded');
+			})
+			.on('changed.simplelightbox', function(){
+				console.log('Image changed');
+			})
+			.on('nextDone.simplelightbox', function(){
+				console.log('Image changed to next');
+			})
+			.on('prevDone.simplelightbox', function(){
+				console.log('Image changed to prev');
+			})
+			.on('error.simplelightbox', function(e){
+				console.log('No image found, go to the next/prev');
+				console.log(e);
+			});
+		});
+	</script>
 
 </body>
+
+
 
 
 </html>
