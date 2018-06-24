@@ -121,78 +121,60 @@
 	padding: 2em; 
 }
 
-.gallery{
+/* Gallery CSS */
+
+.container .gallery a img {
+  float: left;
+  width: 20%;
+  height: auto;
+  border: 0.5em solid #fff;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+}
+
+
+.container .gallery a:hover img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 5;
+  box-shadow: 0px 0px 8px 0px #00000038;
+}
+
+.container .gallery a.big img {
+  width: 33%;
+}
+
+.clear {
+  clear: both;
+  float: none;
+  width: 100%;
+}
+
+.director-link img{
 	width: 100%;
-	margin-top: 5em;
 }
 
-.gallery ul{
-	list-style-type: none;
-}
 
-.gallery ul li {
-	position: relative;
-	bottom: 0;
-	width: auto;
-	margin-right: 1em;
-	margin-bottom: 2em;
-	display: inline-block;
-	width: 23%;
-	transition: bottom 0.2s;
-	box-shadow: 0px 0px 8px 0px #00000038;
-}
-
-.gallery ul li:hover{
-	position: relative;
-	bottom: 20px;
-}
-
-.gallery ul li img{
-	width: 100%;
-	
-}
-
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-.gallery ul li {
-	position: relative;
-	bottom: 0;
-	width: auto;
-	margin-right: 1em;
-	margin-bottom: 2em;
-	display: inline-block;
-	width: 100%;
-	transition: bottom 0.2s;
-	box-shadow: 0px 0px 8px 0px #00000038;
-}
-} 
+	.container .gallery a.big img {
+  		width: 100%;
+	}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-.gallery ul li {
-	position: relative;
-	bottom: 0;
-	width: auto;
-	margin-right: 1em;
-	margin-bottom: 2em;
-	display: inline-block;
-	width: 50%;
-	transition: bottom 0.2s;
-	box-shadow: 0px 0px 8px 0px #00000038;
-}
-} 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-.gallery ul li {
-	position: relative;
-	bottom: 0;
-	width: auto;
-	margin-right: 1em;
-	margin-bottom: 2em;
-	display: inline-block;
-	width: 23%;
-	transition: bottom 0.2s;
-	box-shadow: 0px 0px 8px 0px #00000038;
+
+	.director-link img{
+		width:50%;
+	}
 }
-} 
+
+
+
+
+

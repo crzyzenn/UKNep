@@ -7,7 +7,8 @@
 
 
  /* Import Google Fonts */
- @import url('https://fonts.googleapis.com/css?family=Gugi|IBM+Plex+Sans|Reem+Kufi|Righteous');
+ @import url('https://fonts.googleapis.com/css?family=Gugi|IBM+Plex+Sans|Reem+Kufi|Righteous|Cardo}');
+
  
 :root {
   --blue: #007bff;
@@ -234,10 +235,12 @@ table {
 .thumbnail {
     position: relative;
     overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.62);
 }
 
 .caption {
   position: absolute;
+  font-size: 0.9em;
   bottom: 0%;
   left: 0;
   width: 100%;
@@ -422,7 +425,7 @@ h6, .h6 {
 
 
 [class*="display-"] {
-  font-family: 'Gugi', sans-serif; 
+  font-family: 'Cardo', sans-serif; 
 }
 
 .display-1 {
@@ -446,7 +449,7 @@ h6, .h6 {
 
 .display-4 {
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -3866,7 +3869,7 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
 }
 
 .nav-link:hover, .nav-link:focus {

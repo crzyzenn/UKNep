@@ -39,7 +39,7 @@ $(window).on('load', function(){
 	// For footer links
 	$('.footerLinks').on('click', '.text-muted', function(event){
 		// Only prevent button clicks if the button's not home
-		if(this.id != "home"){
+		if(this.id != "home" && this.id != "director" && this.id != "gallery"){
 			event.preventDefault();
 		}
 		
@@ -47,10 +47,17 @@ $(window).on('load', function(){
 		// DIV to go to
 		var section = "#" + this.id + "Div"; 
 
-		// Auto scroll to that div
-		$('html, body').animate({
-		    scrollTop: ($(section).offset().top - 100)
-		},500);
+
+		try{
+			// Auto scroll to that div
+			$('html, body').animate({
+			    scrollTop: ($(section).offset().top - 100)
+			},500);	
+		}
+		catch(err){
+			window.location = "home"; 
+		}
+		
 	}); 	
 
 

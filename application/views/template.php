@@ -37,9 +37,9 @@
 
 		<div class="collapse navbar-collapse" id="rv-header">
 			<ul class="navbar-nav float-md-right social-links">			
-					<li class="nav-item" style = "color:#4267b2;"><a target="_blank" href="http://www.facebook.com"><span class="fab fa-facebook"></span></a></li>
-					<li class="nav-item" style = "color:#55acee;"><a target="_blank" href="http://twitter.com"><span class="fab fa-twitter-square"></span></a></li>
-					<li class="nav-item" style = "color:#dc483b;"><a target="_blank" href="http://plus.google.com"><span class="fab fa-google-plus-square"></span></a></li>			
+					<li class="nav-item" style = "color:#4267b2;"><a target="_blank" href="https://www.facebook.com/deepakrvcc/"><span class="fab fa-facebook"></span></a></li>
+					<li class="nav-item" style = "color:#55acee;"><a target="_blank" href="https://twitter.com/rvccconstructi1"><span class="fab fa-twitter-square"></span></a></li>
+					<li class="nav-item" style = "color:#dc483b;"><a target="_blank" href="https://plus.google.com/112446607792992609334"><span class="fab fa-google-plus-square"></span></a></li>			
 			</ul>
 			<br>
 			<ul class="navbar-nav float-md-right">
@@ -251,7 +251,10 @@
 								<a class="text-muted" id = "mission" href="">Mission</a> | 
 							</li>
 							<li class="list-inline-item">
-								<a class="text-muted" id = "gallery" href="">Gallery</a>
+								<a class="text-muted" id = "director" href="director">Director's Corner</a> | 
+							</li>
+							<li class="list-inline-item">
+								<a class="text-muted" id = "gallery" href="gallery">Gallery</a>
 							</li>
 					<!-- 		<li class="list-inline-item">Contact | </li>
 							<li class="list-inline-item">Services | </li>

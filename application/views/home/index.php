@@ -37,14 +37,14 @@
 		    <div class="col-sm-3 text-center bg-light text-muted director-link">
 
 				    <br>	     	
-			     	<a href=""><img src="assets/images/vivek.png" width="100%"></a>	     	
+			     	<a href="director"><img src="assets/images/vivek.png" width="100%"></a>	     	
 			     	<p>Vivek Ranjan</p>					
 					<p class="text-gray-dark">Graduate in Electrical & Electronics Engineering from India</p>
 		    </div>
 		    
 		    <div class="col-sm-3 text-center text-muted bg-light director-link">		
 		    <br>	     			 
-		     	<a href=""><img src="assets/images/rajesh.png" width="100%"></a>
+		     	<a href="director"><img src="assets/images/rajesh.png"></a>
  				<p>Rajesh Kr. Das</p>		
 				<p class="text-gray-dark">Master in Architect from TASI (Tashkent, Uzbekistan) </p>
 		    </div>		    
@@ -57,7 +57,7 @@
 		<p class = "display-4 text-center">WE OFFER:</p>
 		<hr>
 		<div class="row">
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 				    <div class="thumbnail text-center">
 				        <img src="assets/images/we1.png" width="100%" 				    alt="" class="img-responsive">
@@ -71,7 +71,7 @@
 				
 										
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 				    <div class="thumbnail text-center">
 				        <img src="assets/images/we2.png" width="100%" 				    alt="" class="img-responsive">
@@ -84,7 +84,7 @@
 				
 										
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we3.png" width="100%" 				    alt="" class="img-responsive">
@@ -96,7 +96,7 @@
 			        </div>
 			    </div>									
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we10.png" width="100%" 				    alt="" class="img-responsive">
@@ -109,7 +109,7 @@
 			        </div>
 			    </div>									
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we11.png" width="100%" 				    alt="" class="img-responsive">
@@ -122,7 +122,7 @@
 			        </div>
 			    </div>									
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we12.png" width="100%" 				    alt="" class="img-responsive">
@@ -135,7 +135,7 @@
 			        </div>
 			    </div>									
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we4.png" width="100%" 				    alt="" class="img-responsive">
@@ -149,7 +149,7 @@
 			        </div>
 			    </div>									
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we5.png" width="100%" 				    alt="" class="img-responsive">
@@ -163,7 +163,7 @@
 			        </div>
 			    </div>									
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we6.png" width="100%" 				    alt="" class="img-responsive">
@@ -177,7 +177,7 @@
 			        </div>
 			    </div>									
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we7.png" width="100%" 				    alt="" class="img-responsive">
@@ -191,7 +191,7 @@
 			        </div>
 			    </div>									
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we8.png" width="100%" 				    alt="" class="img-responsive">
@@ -205,7 +205,7 @@
 			        </div>
 			    </div>									
 			</div>
-			<div class="col-md-4 distinct shadow-div">
+			<div class="col-md-3 distinct shadow-div">
 				
 			    <div class="thumbnail text-center">
 			        <img src="assets/images/we9.png" width="100%" 				    alt="" class="img-responsive">
