@@ -1,4 +1,4 @@
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval = "50000">
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 			<li data-target="#carousel-example-generic" data-slide-to="0"></li>
@@ -7,13 +7,38 @@
 		</ol>
 		<div class="carousel-inner" role="listbox">			        
 			<div class="carousel-item active">
-				<img src="assets/images/test3.png" alt="First slide">
+				<img src="assets/images/main.jpg" alt="First slide">
+				<div class="carousel-caption">
+					<h3>Start something new</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class = "text-center">
+						<a href="#" class = "btn btn-outline-secondary">Reach us out</a>			
+					</div>
+					
+				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/test2.png" alt="First slide">
+				<img src="assets/images/main2.jpg" alt="First slide">
+				<div class="carousel-caption">
+					<h3>Start something new</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class = "text-center">
+						<a href="#" class = "btn btn-outline-secondary">Reach us out</a>			
+					</div>
+				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/test4.png" alt="First slide">
+				<img src="assets/images/main.jpg" alt="First slide">
+				<div class="carousel-caption">
+					<h3>Start something new</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class = "text-center">
+						<a href="#" class = "btn btn-outline-secondary">Reach us out</a>			
+					</div>
+				</div>
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carousel-example-generic" data-slide="prev">
@@ -60,7 +85,7 @@
 			<div class="col-md-3 distinct shadow-div">
 				
 				    <div class="thumbnail text-center">
-				        <img src="assets/images/we1.png" width="100%" 				    alt="" class="img-responsive">
+				        <img src="assets/images/we1.png" width="100%" alt="" class="img-responsive">
 				        <div class="caption">
 				            <p>
 				            	Engineering/Design Layout of Buildings (Commercial/Office/Residential/High Rise, Bank, Hospital), Hotels/Resorts

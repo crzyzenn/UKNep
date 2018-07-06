@@ -1,7 +1,10 @@
 
 $(window).on('load', function(){
-	// Disable all active links on navbar
-	// disable_active_links();
+
+	// Show non fixed navbar initially
+	$('#navbar').attr({
+		class: 'navbar navbar-expand-md navbar-light bg-white navbar-shadow'	    		
+	});
 
 	// Set hide animation status to hide
 	var hideEvent = 1;
@@ -13,25 +16,34 @@ $(window).on('load', function(){
 			event.preventDefault();
 		}
 
-		// Reset active classes
-		disable_active_links();
-
-		// DIV to go to
-		var section = "#" + this.id + "Div"; 
-
-		try{
-			// Auto scroll to that div
-			$('html, body').animate({
-			    scrollTop: ($(section).offset().top - 100)
-			},500);
-
-
-			// Set active class to the link clicked
-			$(this).closest('li').attr('class', 'nav-item active');	
+		if(this.id == "search"){
+			
+			
 		}
-		catch(err){
-			window.location = "home"; 
+		else{
+
+			// Reset active classes
+			disable_active_links();
+
+			// DIV to go to
+			var section = "#" + this.id + "Div"; 
+			try{
+				// Auto scroll to that div
+				$('html, body').animate({
+				    scrollTop: ($(section).offset().top - 100)
+				},500);
+
+
+				// Set active class to the link clicked
+				$(this).closest('li').attr('class', 'nav-item active');	
+			}
+			catch(err){
+				window.location = "home"; 
+			}
 		}
+
+
+		
 		
 	}); 
 		
@@ -135,6 +147,38 @@ $(window).on('load', function(){
 
 
 
+
+	// Navbar icon rotate
+	var toggle = true; 
+	$('#toggle').on('click', function(event) {
+		console.log(toggle); 	
+		if(toggle){
+			$(this).contents().filter(".hamburger").attr("class", "hamburger hamburger--3dxy-r is-active"); 
+			
+			toggle = false; 
+		}	
+		else{
+			$(this).contents().filter(".hamburger").attr("class", "hamburger hamburger--3dxy-r"); 
+			toggle = true; 
+		}
+		
+	});
+
+	
+
+
+
+    // Popover dismiss when clicked outside of the element
+    $(document).on('click', function (e) {
+    $('[data-toggle="popover"],[data-original-title]').each(function () {
+        //the 'is' for buttons that trigger popups
+        //the 'has' for icons within a button that triggers a popup
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {                
+            (($(this).popover('hide').data('bs.popover')||{}).inState||{}).click = false  // fix for BS 3.3.6
+        }
+
+      });
+    });
 
 
 

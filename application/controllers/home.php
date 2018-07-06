@@ -20,7 +20,7 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['title'] = 'RV | Home'; 
+		$data['title'] = 'Home'; 
 		$data['content'] = $this->load->view('home/index', "", TRUE); 
 		$this->load->view('template', $data); 
 
