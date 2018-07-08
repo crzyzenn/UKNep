@@ -50,229 +50,169 @@
 	</div>
 
 
-    <div class="jumbotron jumbotron-fluid" id = "overviewDiv">
-        <div class="container">
-     		
+    <div class="jumbotron jumbotron-fluid bg-light" id = "overviewDiv">
+        
+		  
+			<div class = "container col-sm-11 align-center">
+			     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			     proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			     proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			
+		</div>
+	</div>
+
+    <div class="jumbotron jumbotron-fluid bg-white" id = "servicesDiv"> 
+		<div class = "container distinct">
+		  <p class="display-4 text-center text-capitalize font-weight-bold">Services to meet your needs</p>
+		  <hr style="   width: 17%;
+					    background-color: black;
+					    height: 1px;
+					    margin-top: 2em;
+					    margin-bottom: 4em;">
+		  <br>
 		  <div class="row">
-		  	  <div class="col-sm-6 text-left bg-white" style="padding: 2em; line-height: 2em">
-		     Having started as a brainchild of Engineering Professionals, we at RV Consultancy & Construction (Formerly Known as RKD Architect & Collaborate Pvt. Ltd) today are one of the fastest growing service providers in different states of Nepal. Even though we are young in Nepal’s market for providing engineering solution (Consultancy/Construction), we appreciate the fact that we are an experienced team.
-			 We consistently strive to deliver excellence and we welcome innovative ideas and young genius minds. We treat our clients as Partners Where We offer a collection of benefits to our clients that ranges from Engineering, Designing, Construction, Installation and several operational activities.
-		    </div>
-
-		    <div class="col-sm-3 text-center bg-light text-muted director-link">
-
-				    <br>	     	
-			     	<a href="director"><img src="assets/images/vivek.png" width="100%"></a>	     	
-			     	<p>Vivek Ranjan</p>					
-					<p class="text-gray-dark">Graduate in Electrical & Electronics Engineering from India</p>
-		    </div>
-		    
-		    <div class="col-sm-3 text-center text-muted bg-light director-link">		
-		    <br>	     			 
-		     	<a href="director"><img src="assets/images/rajesh.png"></a>
- 				<p>Rajesh Kr. Das</p>		
-				<p class="text-gray-dark">Master in Architect from TASI (Tashkent, Uzbekistan) </p>
-		    </div>		    
+		  	<div class="col-md-4 text-center">
+		  	  	<div class = "div-corners">
+		  	  		<ul>
+		  	  			<li class = "div-icon"><i class="far fa-bookmark"></i></li>
+		  	  			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		  	  			tempor incididunt ut labore et dolore magna aliqua.</li>
+		  	  			<li class="text-left"><a href="" class = 'btn btn-outline-primary-inverse '>Learn more</a></li>
+		  	  		</ul>
+		  	  	</div>
+		  	</div>
+		  	<div class="col-md-4 text-center">
+		  	  	<div class = "div-middle bg-dark text-white">
+		  	  		<ul>
+		  	  			<li class = "div-icon"><i class="fas fa-desktop"></i></li>
+		  	  			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		  	  			tempor incididunt ut labore et dolore magna aliqua.</li>
+		  	  			<li class="text-left"><a href="" class = 'btn btn-outline-primary'>Learn more</a></li>
+		  	  		</ul>
+		  	  	</div>
+		  	</div>
+		  	<div class="col-md-4 text-center">
+		  	  	<div class = "div-corners">
+		  	  		<ul>
+		  	  			<li class = "div-icon"><i class="fas fa-sliders-h"></i></li>
+		  	  			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		  	  			tempor incididunt ut labore et dolore magna aliqua.</li>
+		  	  			<li class="text-left"><a href="" class = 'btn btn-outline-primary-inverse '>Learn more</a></li>
+		  	  		</ul>
+		  	  	</div>
+		  	</div>
 		  </div>
 		</div>
 	</div>
 
-	<div class = "container" id = "servicesDiv">
-		<br><br>
-		<p class = "display-4 text-center">WE OFFER:</p>
-		<hr>
-		<div class="row">
-			<div class="col-md-3 distinct shadow-div">
-				
-				    <div class="thumbnail text-center">
-				        <img src="assets/images/we1.png" width="100%" alt="" class="img-responsive">
-				        <div class="caption">
-				            <p>
-				            	Engineering/Design Layout of Buildings (Commercial/Office/Residential/High Rise, Bank, Hospital), Hotels/Resorts
-				            	
-							</p>
-				        </div>
-				    </div>
-				
-										
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-				    <div class="thumbnail text-center">
-				        <img src="assets/images/we2.png" width="100%" 				    alt="" class="img-responsive">
-				        <div class="caption">
-				            <p>
-				            	Civil work/Plumbing & Sanitary Work/ Interior & Exterior works
-							</p>
-				        </div>
-				    </div>
-				
-										
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we3.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Remodelling/Renovation/Retrofitting of Residential/Commercial/Office Buildings
 
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we10.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Electrification work/ Street Light Poles, High Mast
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we11.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Fencing solutions/ Earthing & Lightning Protection Solutions
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we12.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Electrical/Civil/Mechanical Works for Industries/Power Plants
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we4.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Substation Work – Civil/Electrical/Mechanical
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we5.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Solar – Civil/Structure/ Module Erection, AC/DC Work
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we6.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Panel ( LV/MV) – Erection, Testing & Commissioning
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we7.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Cable Trays/Raceways
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we8.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Cabling System
-
-
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-			<div class="col-md-3 distinct shadow-div">
-				
-			    <div class="thumbnail text-center">
-			        <img src="assets/images/we9.png" width="100%" 				    alt="" class="img-responsive">
-			        <div class="caption">
-			            <p>
-			            	Transformers – ETC of Power Transformers, Station Transformers, Distribution Transformers			            	
-
-						</p>
-			        </div>
-			    </div>									
-			</div>
-
-			<br><br>
-		</div>
-	</div>
 
     
 
 
-	<!-- Mission Area -->
-    <div class="jumbotron jumbotron-fluid bg-faded" id = "missionDiv">
-		<div class="container">
-			<p class="display-4 text-center">OUR MISSION</p>
-			<hr>
-			<br>			
-			<div class = "row">
-				<div class = "col-sm-4 text-center distinct">
-					<img src="assets/images/mission.png" width="60%">
-				</div>				
-				<div class = "col-sm-8 bg-light text-justified">
-					<ul>
-						<li>To build a state of the art solution provider in Green/Renewable energy projects, Housing/Commercial/ projects ensuring highest quality and customer satisfaction.</li>
-						<li>To develop a lasting relationship with our Client/Customer</li>
-						
-					</ul>
-					
-				</div>
-				
-			</div>
+	<div class="jumbotron jumbotron-fluid bg-dark text-white" id = "teamDiv"> 
+		<div class = "container">
+		  <p class="display-4 text-center font-weight-bold">Our Team</p>
+		  <hr style = "margin-bottom: 3em; background-color: white; width: 10%;">
+
+		  <div class="row">
+		  	<div class="col-md-4 text-center text-muted">
+		  	  	<div class = "div-team-corners">
+		  	  		<img src="assets/images/teams/emily.png">
+		  	  	</div>
+		  	  	<p><b>Emily Taylor</b></p>
+		  	  	<p><b>Digital Enthusiast</b></p>
+
+		  	</div>
+		  	<div class="col-md-4 text-center text-muted">
+		  	  	<div class = "div-team-middle bg-dark text-white">
+		  	  		<img src="assets/images/teams/john.png">
+		  	  	</div>
+		  	  	<p><b>John Hill</b></p>
+		  	  	<p><b>CEO</b></p>
+		  	</div>
+		  	<div class="col-md-4 text-center text-muted">
+		  	  	<div class = "div-team-corners">
+		  	  		<img src="assets/images/teams/harry.png">
+		  	  	</div>
+		  	  	<p><b>Harry Styles</b></p>
+		  	  	<p><b>Developer</b></p>
+		  	</div>
+		  </div>
+		  <div class = 'row'>
+		  	<div class = 'col-md-4 text-center'>
+		  		<br>
+		  		<a href="" class="btn btn-outline-primary">Learn more about our teams</a>
+		  	</div>
+		  </div>
+		  	
 		</div>
 
 	</div>
+
+
+	<div class="jumbotron jumbotron-fluid bg-light text-left" id = "engagementDiv">
+        <div class = "container">
+		<div class="row">
+			<div class = "col-sm-6">
+				<h3 class="font-weight-bold">Ready for engagement?</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				
+			</div>	
+			<div class = "container col-sm-6" style="padding: 2em">
+				<form>
+					<div class="form-group row">
+						
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputEmail3" placeholder="First Name *">
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputPassword3" placeholder="Last Name *">
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-10">
+							<textarea cols="12" rows="6" class="form-control" placeholder="Enquiry"></textarea>
+						</div>
+					</div>
+					
+					
+					<div class="form-group row">
+						<div class="col-sm-12">
+							<button type="submit" class="btn btn-secondary col-sm-10">Submit</button>
+						</div>
+					</div>
+				</form>
+				
+			</div>	
+
+		</div>
+		</div>
+		
+	</div>
+
+
+
 
 
 

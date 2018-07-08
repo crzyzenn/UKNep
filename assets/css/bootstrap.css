@@ -7,7 +7,7 @@
 
 
  /* Import Google Fonts */
- @import url('https://fonts.googleapis.com/css?family=Gugi|IBM+Plex+Sans|Reem+Kufi|Righteous|Cardo}');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu');
 
  
 :root {
@@ -66,7 +66,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 2em;
@@ -425,7 +425,7 @@ h6, .h6 {
 
 
 [class*="display-"] {
-  font-family: 'Cardo', sans-serif; 
+  font-family: 'Ubuntu', sans-serif; 
 }
 
 .display-1 {
@@ -630,6 +630,7 @@ pre code {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+  align-items: center;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
@@ -2353,7 +2354,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem;
+  /* border-radius: 0.25rem; */
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -2369,7 +2370,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  /* box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); */
 }
 
 .btn.disabled, .btn:disabled {
@@ -2662,20 +2663,28 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #007bff;
+  color: #ffffffbf;
   background-color: transparent;
   background-image: none;
-  border-color: #007bff;
+  border-color: #ffffffbf;
+  border-top: 0;
+  border-bottom: 2px solid #ffffffbf;
+  border-left:  0;
+  border-right:  0;
+  width: fit-content;
+  line-height: 3;
+  text-align: left;
+  padding-right: 3em;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #0c111100;
+  border-color: #ffffff;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+ 
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
@@ -2685,14 +2694,12 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+
 }
 
 .btn-outline-secondary {
@@ -3194,7 +3201,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #007bff;
+  background-color: #0b2229;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -6074,8 +6081,9 @@ button.close {
   left: 15%;
   z-index: 10;
   max-height: 14em;
-  overflow:  scroll;
+  overflow-y: scroll;
   padding: 1em;
+  overflow: hidden;
   color: #fff;
   text-align: center;
   background: #0b2229;
@@ -6177,7 +6185,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #1d1d1d !important;
+  background-color: #0b2228 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -8957,6 +8965,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-muted {
   color: #6c757d !important;
+}
+
+.text-muted-custom{
+  color: #c1c1c1 !important;
 }
 
 .text-black-50 {

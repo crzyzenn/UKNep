@@ -2,7 +2,7 @@
 
 
 .carousel-inner img{
-	width: 100%; 
+  width: 100%; 
 }
 
 .navbar-fixed{
@@ -12,29 +12,29 @@
 }
 
 .navbar-shadow{
-	box-shadow: -2px 3px 20px 0px #00000052;
+  box-shadow: -2px 3px 20px 0px #00000052;
 }
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-	.main-logo{
-		width: 2.2em;	
-	}
+  .main-logo{
+    width: 2.2em; 
+  }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-	.main-logo{
-		width: 3em;	
-	}
+  .main-logo{
+    width: 3em; 
+  }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-	.main-logo{
-		width: 4em;	
-	}
+  .main-logo{
+    width: 4em; 
+  }
 } 
 
 
@@ -54,44 +54,44 @@
 }
 
 .img-title p{
-	padding: 1em;
+  padding: 1em;
 }
 
 .distinct{
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .text-subtle{
-	color: #dee2e6;
+  color: #dee2e6;
 }
 
 .text-justified{
-	padding: 2em; 
-	line-height: 2em;
+  padding: 2em; 
+  line-height: 2em;
 }
 
 
 .col-md-12 svg{
-	margin: 0.5%;
+  margin: 0.5%;
 }
 
 
 .blank{
-	min-height: 0;
+  min-height: 0;
 }
 
 .social-links{
-	 margin-right: 10px;
+   margin-right: 10px;
 }
 
 .social-links li{
-	 margin-right: 5px;
+   margin-right: 5px;
 }
 
 
 .social-links a{
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .shadow-div{
@@ -118,7 +118,7 @@
 
 
 .spacing{
-	padding: 2em; 
+  padding: 2em; 
 }
 
 /* Gallery CSS */
@@ -158,20 +158,20 @@
 }
 
 .director-link img{
-	width: 100%;
+  width: 100%;
 }
 
 
 @media only screen and (max-width: 600px) {
-	.container .gallery a.big img {
-  		width: 100%;
-	}
+  .container .gallery a.big img {
+      width: 100%;
+  }
 
 
 
-	.director-link img{
-		width:50%;
-	}
+  .director-link img{
+    width:50%;
+  }
 }
 
 
@@ -212,4 +212,143 @@
 
 
 
+/* Custom Services Div */
 
+.div-corners{
+  
+  min-height: 20em;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+
+}
+
+.div-middle{ 
+  min-height: 30em; 
+  border-radius: 15px;
+}
+
+.div-corners, .div-middle{
+  position: relative;
+  bottom: 0;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px 1px #0000001f;
+  border-radius: 15px;
+  transition: bottom 0.3s;
+}
+
+.div-corners:hover, .div-middle:hover{
+  bottom: 2em; 
+}
+
+
+
+
+.div-corners ul, .div-middle ul{
+  list-style: none;
+  padding: 0;
+}
+
+.div-corners ul .div-icon, .div-middle ul .div-icon{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.div-corners ul li:last-child{
+  margin-top: 2em;
+}
+
+.div-middle ul li:last-child{
+  margin-top: 6em;
+}
+/* End of Custom Services Div */
+
+
+/* Custom teams div */
+
+.div-team-corners{
+  min-height: 5em;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
+
+.div-team-middle{
+
+  min-height: 10em; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+  margin-bottom: 4em; 
+}
+
+
+.div-team-corners img{
+  width: 80%;
+  clip-path: circle(100% at center);
+}
+
+.div-team-middle img{
+  clip-path: circle(100% at center);
+  width: 100%;
+}
+
+
+/* End of custom teams div */
+
+
+
+/* Custom Buttons */
+
+
+.btn-outline-primary-inverse {
+  border-left:  0;
+  color: #0b2228;
+  border-right: 0;
+  background-color: transparent;
+  border-color: #0b222861;
+  border-top: 0;
+  border-bottom: 2px solid #0b222861;
+  width: fit-content;
+  line-height: 3;
+  text-align: left;
+  padding-right: 3em;
+}
+
+.btn-outline-primary-inverse:hover {
+  color: #000000;
+  background-color: #0c111100;
+  border-color: #020202;
+}
+
+/* End of custom buttons */
+
+
+/* Footer */
+
+
+/*footer{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 1em; 
+  padding-right: 1em;
+}*/
+
+
+.footer-div{
+  padding: 2em;
+}
+
+
+
+/* End of Footer */

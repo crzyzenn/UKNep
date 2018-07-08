@@ -10,37 +10,68 @@ $(window).on('load', function(){
 	var hideEvent = 1;
 
 	// Toggle active classes on the URL clicked
-	$('#rv-header').on('click', '.nav-link', function(event){
-		// Prevent some button clicks
-		if(this.id != "home" && this.id != "director" && this.id != "gallery"){
+	$('#rv-header').on('click', '.dropdown-item', function(event){
+		
+		// // Prevent some button clicks
+		// if(this.id != "director" && this.id != "gallery"){
 			event.preventDefault();
-		}
+		// }
 
-		if(this.id == "search"){
+		// if(this.id == "search"){
 			
 			
-		}
-		else{
+		// }
 
-			// Reset active classes
+		// if(this.id == "home"){
+
+		// 	// DIV to go to
+		// 	var section = "#" + this.id + "Div"; 
+		// 	console.log(section);
+		// 	try{
+		// 		// Auto scroll to that div
+		// 		$('html, body').animate({
+		// 		    scrollTop: ($(section).offset().top - 100)
+		// 		},500);
+
+
+		// 		// Set active class to the link clicked
+		// 		// $(this).closest('li').attr('class', 'nav-item active');	
+		// 	}
+		// 	catch(err){
+		// 		// window.location = "home";
+		// 		console.log(err);  
+		// 	}
+			
+		// }
+		// else{
+		// 	// Reset active classes
+		// 	disable_active_links();
+
+		// 	// DIV to go to
+		// 	var section = "#" + this.id + "Div"; 
+		// 	try{
+		// 		// Auto scroll to that div
+		// 		$('html, body').animate({
+		// 		    scrollTop: ($(section).offset().top - 100)
+		// 		},500);
+
+
+		// 		// Set active class to the link clicked
+		// 		$(this).closest('li').attr('class', 'nav-item active');	
+		// 	}
+		// 	catch(err){
+		// 		window.location = "home"; 
+		// 	}
+		// }	
+
 			disable_active_links();
 
-			// DIV to go to
 			var section = "#" + this.id + "Div"; 
-			try{
-				// Auto scroll to that div
-				$('html, body').animate({
-				    scrollTop: ($(section).offset().top - 100)
-				},500);
+			$('html, body').animate({
+			    scrollTop: ($(section).offset().top - 100)
+			},500);
 
-
-				// Set active class to the link clicked
-				$(this).closest('li').attr('class', 'nav-item active');	
-			}
-			catch(err){
-				window.location = "home"; 
-			}
-		}
+			$(this).attr("class", "dropdown-item active");
 
 
 		
@@ -129,8 +160,8 @@ $(window).on('load', function(){
 
 	// Disable all active class (indicator) on links
 	function disable_active_links(){
-		$('.nav-item').each(function(index, el) {				
-			$(el).attr('class', 'nav-item');
+		$('.dropdown-item').each(function(index, el) {				
+			$(el).attr('class', 'dropdown-item');
 		});		
 	}
 

@@ -43,7 +43,16 @@
 		<div class="collapse navbar-collapse" id="rv-header">			
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" id = "home" href="home">Home <span class="sr-only">(current)</span></a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="http://example.com" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+						<div class="dropdown-menu" aria-labelledby="home">
+							<a class="dropdown-item" href="" id="overview">Overview</a>
+							<a class="dropdown-item" href="" id="services">Services Offered</a>
+							<a class="dropdown-item" href="" id="team">Teams</a>
+							<a class="dropdown-item" href="" id="engagement">Engagement</a>
+							<a class="dropdown-item" href="" id="offices">Our offices</a>
+						</div>
+					</li>
 				</li>
 
 				<!-- Activate hyperlinks on pages except home -->
@@ -97,22 +106,13 @@
 
 				<?php else: ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "overview" href="">About Us</a>
-					</li>
+						<a class="nav-link" id = "overview" href="director">Our Work</a>
+					</li>			
 					<li class="nav-item">
-						<a class="nav-link" id = "services" href = "">Services</a>
-					</li>				
-					<li class="nav-item">
-						<a class="nav-link" id = "mission" href="">Mission</a>
+						<a class="nav-link" id = "mission" href="">About</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "director" href="director">Director's Corner</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "gallery" href="gallery">Gallery</a>
 					</li>
 					<li class="nav-item">
 						  <a href = "#" id = "search" class="nav-link" onclick = "return false;" data-toggle="popover" data-html = "true" data-placement = "bottom" data-content='<div class="row">
@@ -127,6 +127,7 @@
 									</div>
 								</div>'><i class = "fa fa-search"></i></a>
 					</li>
+
 						        
 					</li>
 
@@ -161,137 +162,85 @@
 
 
 	
-	<footer>
-        <div class="jumbotron jumbotron-fluid bg-dark text-subtle">
-			<div class="container">
-<!-- 				<h1 class="display-3">"COME HOME TO QUALITY"</h1>
-				<p class="text-muted">R.V. Consultancy & Construction Private Limited</p> -->
-
-				<!-- Images Social Icons -->
-				<!-- <div class = "row text-center">
-					<div class = 'col-md-12' style="font-size:1.5em;">
-						<span class="fab fa-facebook"></span>
-						<span class="fab fa-instagram"></span>
-						<span class="fab fa-twitter-square"></span>	
-					</div>
-					
+	<footer class="bg-dark text-muted-custom">
+		<div class = "footer-div" id = "officesDiv">
+			<div class = "row">
+				<!-- Contact Details -->
+		
+				<div class = "col-sm-2 text-muted">
+					<b class="text-muted-custom">OUR OFFICES</b>
+					<br>
+					<p>Location</p>
+					<p>Contact Number</p>
 				</div>
-				<br>
-				<br> -->
-
-				<div class="row text-muted">
-					
-					<div class = 'col-md-4 text-left' id = "contactDiv">						
-						<p class = "text-muted">
-							Contact:<br>							
-							Mobile: +977-9851004002, +977-9818154134 	<br>	
-							        <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
-										<div class="modal-dialog" role="document">
-											<div class="modal-content">
-												<div class="modal-header">
-													
-													<h5 class="modal-title font-weight-bold" id="gridModalLabel">Contact Information</h5>
-													<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-												</div>
-												<div class="modal-body">
-													<table class="table table-hover text-left table-inverse">				
-														<tbody>
-															<tr>
-																<td>Address</td>
-																<td>
-																	<p>1/19 Kha, Bhimmukteswor,
-																	Ward No: - 11, Kalimati,
-																	Kathmandu, Nepal</p>
-																</td>
-															</tr>
-															<tr>
-																<td>Email</td>
-																<td>
-																	<p>example@test.com</p>
-																</td>
-															</tr>
-															<tr>
-																<td>Website</td>
-																<td>
-																	<p>example.com</p>
-																</td>
-															</tr>
-															<tr>
-																<td>Mobile</td>
-																<td>
-																	<p>
-																		+977-9851004002, +977-9818154134
-																	</p>
-																</td>
-															</tr>
-															<tr>
-																<td>Telephone</td>
-																<td>
-																	<p>
-																		+977-1-4270678, 4275185
-																	</p>
-																</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-												<div class="modal-footer">
-													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-													<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="bd-example bd-example-padded-bottom">
-										<button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#gridSystemModal">
-											<i class="fas fa-info"></i>
-										</button>
-									</div>
-
-
-						</p>						
-					</div>
-					<div class = 'col-md-3 text-left'>											
-						<p class="text-muted">&copy <?php echo date('Y'); ?> | All Rights Reserved</p>	
-					</div>
-					<div class = 'col-md-5 text-left'>						
-						<ul class="list-inline footerLinks">
-							<li class="list-inline-item">
-								<a href="home" id = "home" class = "text-muted">Home</a> | 
-							</li>
-							<li class="list-inline-item">
-								<a class="text-muted" id = "overview" href="">About Us</a> | 
-							</li>
-							<li class="list-inline-item">
-								<a class="text-muted" id = "contact" href="">Contact</a> | 
-							</li>
-							<li class="list-inline-item">
-								<a class="text-muted" id = "services" href="">Services</a> | 
-							</li>
-							<li class="list-inline-item">
-								<a class="text-muted" id = "mission" href="">Mission</a> | 
-							</li>
-							<li class="list-inline-item">
-								<a class="text-muted" id = "director" href="director">Director's Corner</a> | 
-							</li>
-							<li class="list-inline-item">
-								<a class="text-muted" id = "gallery" href="gallery">Gallery</a>
-							</li>
-					<!-- 		<li class="list-inline-item">Contact | </li>
-							<li class="list-inline-item">Services | </li>
-							<li class="list-inline-item">Mission | </li>
-							<li class="list-inline-item">Gallery</li> -->
-						</ul>		
-			
-					</div>
-
+				<div class = "col-sm-2 text-muted">
+					<br>
+					<p>Location</p>
+					<p>Contact Number</p>
 				</div>
-
-
-				
 			</div>
+
+
+			<!-- Footer information -->
+			<div class = "row">
+				<!-- Links -->
+				<div class = "col-sm-4">
+					<ul class="list-inline footerLinks font-weight-bold">
+						<li class="list-inline-item">
+							<a href="home" id = "home" class = "text-muted-custom">Home</a>  
+						</li>
+						<li class="list-inline-item">
+							<a class="text-muted-custom" id = "overview" href="">Our Work</a>  
+						</li>
+						<li class="list-inline-item">
+							<a class="text-muted-custom"  id = "contact" href="">About</a> 
+						</li>
+						<li class="list-inline-item">
+							<a class="text-muted-custom" id = "services" href="">Contact</a>  
+						</li>
+					</ul>	
+				</div>
+
+				<!-- Copyright -->
+				<div class = "col-sm-4 font-weight-bold text-center">
+					<p>&copy <?php echo date('Y'); ?> Some Company Pvt Ltd</p>	
+				</div>
+
+				<!-- Media icons -->
+
+				<div class = "col-sm-4 text-right">
+					<ul class="list-inline footerLinks font-weight-bold">
+						<li class="list-inline-item">
+							<i class="fab fa-facebook-f"></i>
+						</li>
+						<li class="list-inline-item">
+							<i class="fab fa-instagram"></i>
+						</li>
+						<li class="list-inline-item">
+							<i class="fab fa-twitter"></i>
+						</li>
+					</ul>	
+				</div>
+			</div>
+			
 		</div>
-	</footer>	
+
+			
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
 	<script>
 		$(function(){
