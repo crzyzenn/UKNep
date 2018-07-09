@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo $title; ?></title>
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
-	<script type="text/javascript" src="assets/js/fontawesome-all.js"></script>
+	<script type="text/javascript" src="assets/js/all.js"></script>
 	<script type="text/javascript" src="assets/js/nav.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -13,9 +13,6 @@
 
 	<!-- Gallery -->
 	<link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
-	<!-- <link href='assets/css/demo.css' rel='stylesheet' type='text/css'> -->
-
-
 
 
 </head>
@@ -227,6 +224,24 @@
 
 			
 	</footer>
+
+	
+
+
+
+
+	<!-- This website is under construction message -->	
+	<div class="alert alert-warning alert-dismissible fixed-bottom text-center" style = "margin-bottom: 0;" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+			<span class="sr-only">Close</span>
+		</button>
+		<strong><i class="fas fa-exclamation-triangle"></i> This site is under construction</strong> 
+	</div>
+
+	
+		
+	
 
 
 
