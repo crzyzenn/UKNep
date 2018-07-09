@@ -232,7 +232,7 @@
 			<span aria-hidden="true">&times;</span>
 			<span class="sr-only">Close</span>
 		</button>
-		<strong><i class="fas fa-exclamation-triangle"></i> This site is under construction. Some features might not be working!</strong> 
+		<i class="fas fa-exclamation-triangle"></i> This site is under construction. Some features might not be working!
 	</div>
 
 	
