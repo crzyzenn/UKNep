@@ -225,10 +225,6 @@
 			
 	</footer>
 
-	
-
-
-
 
 	<!-- This website is under construction message -->	
 	<div class="alert alert-warning alert-dismissible fixed-bottom text-center" style = "margin-bottom: 0;" role="alert">
@@ -236,7 +232,7 @@
 			<span aria-hidden="true">&times;</span>
 			<span class="sr-only">Close</span>
 		</button>
-		<strong><i class="fas fa-exclamation-triangle"></i> This site is under construction</strong> 
+		<strong><i class="fas fa-exclamation-triangle"></i> This site is under construction. Some features might not be working!</strong> 
 	</div>
 
 	
