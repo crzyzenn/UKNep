@@ -1,4 +1,4 @@
-<div class = "page-header" style="background: url('assets/images/contact.jpg'); background-position: center; background-size: cover;">
+<div class = "page-header" style="background: url('assets/images/contactX.jpg'); background-position: center; background-size: cover;">
 	<div class = "page-header-caption">
 	<h3>Book or call us</h3>
 	<p>

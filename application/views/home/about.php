@@ -1,4 +1,4 @@
-<div class = "page-header" style="background: url('assets/images/about.jpg'); background-position: center; background-size: cover;">
+<div class = "page-header" style="background: url('assets/images/aboutX.jpg'); background-position: center; background-size: cover;">
 	<div class = "page-header-caption">
 	<p>
 		[Company] is a full-service financial consulting firm dedicated to helping our clients build wealth and protect their hard-earned assets. Our firm is completely independent, so our loyalty belongs exclusively to our clients -- not to a parent company.

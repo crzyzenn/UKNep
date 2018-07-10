@@ -7,7 +7,7 @@
 		</ol>
 		<div class="carousel-inner" role="listbox">			        
 			<div class="carousel-item active">
-				<img src="assets/images/m1.jpg" alt="First slide">
+				<img src="assets/images/m1x.jpg" alt="First slide">
 				<div class="carousel-caption">
 					<h3>Start something new</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/m2.jpg" alt="First slide">
+				<img src="assets/images/m2x.jpg" alt="First slide">
 				<div class="carousel-caption">
 					<h3>Start something new</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/m3.jpg" alt="First slide">
+				<img src="assets/images/m3x.jpg" alt="First slide">
 				<div class="carousel-caption">
 					<h3>Start something new</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
