@@ -4,15 +4,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo $title; ?></title>
-	<script type="text/javascript" src="assets/js/jquery.js"></script>
-	<script type="text/javascript" src="assets/js/all.js"></script>
-	<script type="text/javascript" src="assets/js/nav.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/hamburgers.css">
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('favicon.ico'); ?>">
+	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/all.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/nav.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.bundle.js'); ?>"></script>
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/hamburgers.css'); ?>">
 
 	<!-- Gallery -->
-	<link href='assets/css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/simpleLightbox.min.css'); ?>">
 
 
 </head>
@@ -39,7 +40,9 @@
 
 		<div class="collapse navbar-collapse" id="rv-header">			
 			<ul class="navbar-nav">
-				<li class="nav-item">
+
+				<!-- Home Dropdown menu -->
+				<!-- <li class="nav-item">
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="http://example.com" id="home" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
 						<div class="dropdown-menu" aria-labelledby="home">
@@ -50,68 +53,83 @@
 							<a class="dropdown-item" href="" id="offices">Our offices</a>
 						</div>
 					</li>
-				</li>
+				</li> -->
 
 				<!-- Activate hyperlinks on pages except home -->
-				<?php if (uri_string() == "director"): ?>
+				<?php if (uri_string() == "about"): ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "overview" href="">About Us</a>
+						<a class="nav-link" id = "contact" href="">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "services" href = "">Services</a>
-					</li>				
-					<li class="nav-item">
-						<a class="nav-link" id = "mission" href="">Mission</a>
+						<a class="nav-link" id = "contact" href="">Websites</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Contact</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" id = "director" href="director">Director's Corner</a>
+						<a class="nav-link" id = "contact" href="">E-Commerce</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "gallery" href="gallery">Gallery</a>
+						<a class="nav-link" id = "contact" href="">Data Work</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "gallery" href="gallery"><i class = "fa fa-search"></i></a>
-					</li>
-
-
-
-				<?php elseif (uri_string() == "gallery"): ?>
-					<li class="nav-item">
-						<a class="nav-link" id = "overview" href="">About Us</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "services" href = "">Services</a>
-					</li>				
-					<li class="nav-item">
-						<a class="nav-link" id = "mission" href="">Mission</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "director" href="director">Director's Corner</a>
+						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" id = "gallery" href="gallery">Gallery</a>
+						<a class="nav-link" id = "about" href="about">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "gallery" href="gallery"><i class = "fa fa-search"></i></a>
+						<a class="nav-link" id = "contact" href="contact">Contact</a>
 					</li>
 
-				<?php else: ?>
+
+
+				<?php elseif (uri_string() == "contact"): ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "overview" href="director">Our Work</a>
-					</li>			
-					<li class="nav-item">
-						<a class="nav-link" id = "mission" href="">About</a>
+						<a class="nav-link" id = "contact" href="">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Contact</a>
+						<a class="nav-link" id = "contact" href="">Websites</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">E-Commerce</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Data Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "about" href="about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" id = "contact" href="contact">Contact</a>
+					</li>
+
+				<?php else: ?>			
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Mobile App</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Websites</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">E-Commerce</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Data Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "about" href="about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="contact">Contact</a>
+					</li>
+
+
+					<!-- Search -->
+<!-- 					<li class="nav-item">
 						  <a href = "#" id = "search" class="nav-link" onclick = "return false;" data-toggle="popover" data-html = "true" data-placement = "bottom" data-content='<div class="row">
 									<div class="col-lg-12">
 										<div class="input-group">
@@ -123,7 +141,7 @@
 										</div>
 									</div>
 								</div>'><i class = "fa fa-search"></i></a>
-					</li>
+					</li> -->
 
 						        
 					</li>
@@ -161,22 +179,20 @@
 	
 	<footer class="bg-dark text-muted-custom">
 		<div class = "footer-div" id = "officesDiv">
+			<b class="text-muted-custom">OUR OFFICES</b>
 			<div class = "row">
 				<!-- Contact Details -->
-		
 				<div class = "col-sm-2 text-muted">
-					<b class="text-muted-custom">OUR OFFICES</b>
-					<br>
-					<p>Location</p>
-					<p>Contact Number</p>
+					<p>Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi </p>
+					<p>96522 (257) 563-7401</p>
 				</div>
-				<div class = "col-sm-2 text-muted">
-					<br>
-					<p>Location</p>
-					<p>Contact Number</p>
+				<div class = "col-sm-2 text-muted">					
+					<p>Forrest Ray 191-103 Integer Rd. Corona New Mexico 
+08219 (404) 960-3807</p>
+					<p>08219 (404) 960-3807</p>
 				</div>
 			</div>
-
+			<br>
 
 			<!-- Footer information -->
 			<div class = "row">
@@ -184,16 +200,25 @@
 				<div class = "col-sm-4">
 					<ul class="list-inline footerLinks font-weight-bold">
 						<li class="list-inline-item">
-							<a href="home" id = "home" class = "text-muted-custom">Home</a>  
+							<a class = "text-muted-custom" href="home">Mobile App</a>  
 						</li>
 						<li class="list-inline-item">
-							<a class="text-muted-custom" id = "overview" href="">Our Work</a>  
+							<a class="text-muted-custom" href="">Websites</a>  
 						</li>
 						<li class="list-inline-item">
-							<a class="text-muted-custom"  id = "contact" href="">About</a> 
+							<a class="text-muted-custom" href="">E-Commerce</a>  
 						</li>
 						<li class="list-inline-item">
-							<a class="text-muted-custom" id = "services" href="">Contact</a>  
+							<a class="text-muted-custom" href="">Data-Work</a>  
+						</li>
+						<li class="list-inline-item">
+							<a class="text-muted-custom" href="">Testimonials</a>  
+						</li>
+						<li class="list-inline-item">
+							<a class="text-muted-custom" href="">About</a> 
+						</li>
+						<li class="list-inline-item">
+							<a class="text-muted-custom" href="contact">Contact</a>  
 						</li>
 					</ul>	
 				</div>
@@ -234,21 +259,6 @@
 		</button>
 		<i class="fas fa-exclamation-triangle"></i> This site is under construction. Some features might not be working!
 	</div>
-
-	
-		
-	
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -6051,7 +6051,7 @@ button.close {
     padding: 1em;
     color: #fff;
     text-align: center;
-    background: #0b2128;
+    background: #0b212800;
   }
 } 
 
@@ -6068,7 +6068,7 @@ button.close {
   padding: 1em;
   color: #fff;
   text-align: center;
-  background: #0b2229;
+  background: #0b222900;
 }
 }
 
@@ -6086,7 +6086,7 @@ button.close {
   overflow: hidden;
   color: #fff;
   text-align: center;
-  background: #0b2229;
+  background: #09080600;
 }
 } 
 
@@ -6185,7 +6185,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #0b2228 !important;
+  background-color: #1d1d1d !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,

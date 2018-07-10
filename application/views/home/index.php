@@ -7,36 +7,36 @@
 		</ol>
 		<div class="carousel-inner" role="listbox">			        
 			<div class="carousel-item active">
-				<img src="assets/images/main.jpg" alt="First slide">
+				<img src="assets/images/m1.jpg" alt="First slide">
 				<div class="carousel-caption">
 					<h3>Start something new</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p>
 					<div class = "text-center">
-						<a href="#" class = "btn btn-outline-secondary">Reach us out</a>			
+						<a href="#" class = "btn btn-outline-warning">Reach us out</a>			
 					</div>
 					
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/main2.jpg" alt="First slide">
+				<img src="assets/images/m2.jpg" alt="First slide">
 				<div class="carousel-caption">
 					<h3>Start something new</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p>
 					<div class = "text-center">
-						<a href="#" class = "btn btn-outline-secondary">Reach us out</a>			
+						<a href="#" class = "btn btn-outline-warning">Reach us out</a>			
 					</div>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/main.jpg" alt="First slide">
+				<img src="assets/images/m3.jpg" alt="First slide">
 				<div class="carousel-caption">
 					<h3>Start something new</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.</p>
 					<div class = "text-center">
-						<a href="#" class = "btn btn-outline-secondary">Reach us out</a>			
+						<a href="#" class = "btn btn-outline-warning">Reach us out</a>			
 					</div>
 				</div>
 			</div>
@@ -76,7 +76,7 @@
 
     <div class="jumbotron jumbotron-fluid bg-white" id = "servicesDiv"> 
 		<div class = "container distinct">
-		  <p class="display-4 text-center text-capitalize font-weight-bold">Services to meet your needs</p>
+		  <h3 class="text-center text-capitalize font-weight-bold">Services to meet your needs</h3>
 		  <hr style="   width: 17%;
 					    background-color: black;
 					    height: 1px;
@@ -125,7 +125,7 @@
 
 	<div class="jumbotron jumbotron-fluid bg-dark text-white" id = "teamDiv"> 
 		<div class = "container">
-		  <p class="display-4 text-center font-weight-bold">Our Team</p>
+		  <h3 class="text-center font-weight-bold">Our Team</h3>
 		  <hr style = "margin-bottom: 3em; background-color: white; width: 10%;">
 
 		  <div class="row">
