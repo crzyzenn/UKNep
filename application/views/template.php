@@ -58,7 +58,7 @@
 				<!-- Activate hyperlinks on pages except home -->
 				<?php if (uri_string() == "about"): ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Mobile App</a>
+						<a class="nav-link" id = "" href="">Mobile App</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Websites</a>
@@ -106,7 +106,7 @@
 
 				<?php else: ?>			
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Mobile App</a>
+						<a class="nav-link" id = "contact" href="mobile-app">Mobile App</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Websites</a>

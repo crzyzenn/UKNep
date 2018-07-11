@@ -2,7 +2,8 @@
 
 
 .carousel-inner img{
-  width: 100%; 
+  min-width: 100%;
+  min-height: calc(100vh - 69px)!important;
 }
 
 .navbar-fixed{
@@ -357,13 +358,35 @@
 }
 
 .page-header-caption{
-  background-color: black; 
-  color: white; 
-  padding: 2em; 
+  background-color: transparent;
+  color: white;
+  padding: 2em;
   position: absolute;
   bottom: 0;
-
+  width: 45%;
 }
+
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+  .page-header-caption{
+    width: 100%; 
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .page-header-caption{
+    width: 55%;
+  }
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .page-header-caption{
+    width: 50%;
+  }
+} 
 
 
 /* End of Header Image CSS */
@@ -405,4 +428,107 @@
 .custom .col-sm-4{
   margin-bottom: 3em;
 }
+
+
+
+
+/* Mobile app page */
+
+.mobile-image{
+  width: 100%; 
+  background: black; 
+}
+
+
+
+
+.mobile-image img{
+  width: 100%; 
+}
+
+
+.work-div{
+  margin: 0; 
+  width: 100%;
+  height: 35em;
+  overflow: hidden;
+  position: relative;
+}
+
+.work-div-caption{
+  background-color: transparent;
+  color: white;
+  padding: 2em;
+  position: absolute;
+  top: 3em;
+  width: 45%;
+}
+
+/* Extra small devices */
+@media only screen and (max-width: 600px) {
+  .work-div-caption{
+    width: 100%;
+    left:  0;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .work-div-caption{
+    width: 55%;
+    left: 7%;
+  }
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .work-div-caption{
+    width: 50%;
+    left: 7%;
+  }
+} 
+
+
+
+
+.workflow .row:last-child{
+  margin-bottom: 2em;
+}
+
+
+.technology-container .row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 2em;
+}
+
+.technology-container .row .col-sm-4{
+    margin-bottom: 3em;
+}
+
+
+.technology-container .lead{
+  margin-bottom: 2em;
+}
+
+
+.technology-container ul{
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.technology-container ul li{
+  margin-bottom: 2em;
+}
+
+
+
+/* End of mobile app page */
 

@@ -441,6 +441,15 @@ h6, .h6 {
   line-height: 1.2;
 }
 
+@media only screen and (max-width: 600px) {
+  .display-2{
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+} 
+
+
 .display-3 {
   font-size: 4.5rem;
   font-weight: 300;
@@ -452,6 +461,9 @@ h6, .h6 {
   font-weight: 500;
   line-height: 1.2;
 }
+
+
+
 
 hr {
   margin-top: 1rem;
@@ -5804,7 +5816,8 @@ button.close {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
+  height: calc(100vh - 69px)!important;
   overflow: hidden;
   border-bottom: 0.4em solid #212529;
 }
@@ -6027,7 +6040,7 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 35px;
+  top: 40%;
   left: 15%;
   z-index: 10;
   overflow:  scroll;
@@ -6043,11 +6056,10 @@ button.close {
   .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 35px;
+    top: 13%;
     left: 15%;
-    z-index: 10;
-    max-height: 8em;
-    overflow:  scroll;
+    max-height: 100%;
+    z-index: 10;    
     padding: 1em;
     color: #fff;
     text-align: center;
@@ -6060,11 +6072,10 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 35px;
+  top: 100px;
   left: 15%;
   z-index: 10;
-  max-height: 11em;
-  overflow:  scroll;
+  max-height: 100%;
   padding: 1em;
   color: #fff;
   text-align: center;
@@ -6077,13 +6088,12 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 35px;
+  top: 200px;
   left: 15%;
+  max-height: 100%;
   z-index: 10;
-  max-height: 14em;
   overflow-y: scroll;
   padding: 1em;
-  overflow: hidden;
   color: #fff;
   text-align: center;
   background: #09080600;

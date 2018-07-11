@@ -8,36 +8,30 @@
 		<div class="carousel-inner" role="listbox">			        
 			<div class="carousel-item active">
 				<img src="assets/images/m1x.jpg" alt="First slide">
-				<div class="carousel-caption">
-					<h3>Start something new</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div class = "text-center">
-						<a href="#" class = "btn btn-outline-warning">Reach us out</a>			
-					</div>
-					
+				<div class="carousel-caption text-center">
+					<h1 class="display-2">Start something new</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod		
+					</p>				
+					<a href="#" class = "btn btn-outline-warning">Reach us out</a>
+							
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/images/m2x.jpg" alt="First slide">
-				<div class="carousel-caption">
-					<h3>Start something new</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div class = "text-center">
-						<a href="#" class = "btn btn-outline-warning">Reach us out</a>			
-					</div>
+				<div class="carousel-caption text-center">
+					<h1 class="display-2">Start something new</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	</p>				
+					<a href="#" class = "btn btn-outline-warning">Reach us out</a>
+								
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="assets/images/m3x.jpg" alt="First slide">
-				<div class="carousel-caption">
-					<h3>Start something new</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div class = "text-center">
-						<a href="#" class = "btn btn-outline-warning">Reach us out</a>			
-					</div>
+				<div class="carousel-caption text-center">
+					<h1 class="display-2">Start something new</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	</p>				
+					<a href="#" class = "btn btn-outline-warning">Reach us out</a>
+							
 				</div>
 			</div>
 		</div>
