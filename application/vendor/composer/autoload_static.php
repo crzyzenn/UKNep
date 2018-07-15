@@ -6,9 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitbc86652e285b21a69e97b6b96d9c64f5
 {
+    public static $prefixLengthsPsr4 = array (
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInitbc86652e285b21a69e97b6b96d9c64f5::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitbc86652e285b21a69e97b6b96d9c64f5::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

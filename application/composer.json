@@ -2,6 +2,8 @@
     "name": "crzyzen/application",
     "require": {
         "twbs/bootstrap": "^4.1",
-        "nickdekruijk/lightbox.js": "^0.0.2"
+        "nickdekruijk/lightbox.js": "^0.0.2",
+        "phpmailer/phpmailer": "^6.0"
+        
     }
 }

@@ -1,36 +1,37 @@
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval = "50000">
-		<ol class="carousel-indicators">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval = "2500">
+		<ul class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 			<li data-target="#carousel-example-generic" data-slide-to="0"></li>
 			<li data-target="#carousel-example-generic" data-slide-to="0"></li>
 
-		</ol>
+		</ul>
 		<div class="carousel-inner" role="listbox">			        
 			<div class="carousel-item active">
 				<img src="assets/images/m1x.jpg" alt="First slide">
 				<div class="carousel-caption text-center">
-					<h1 class="display-2">Start something new</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod		
-					</p>				
-					<a href="#" class = "btn btn-outline-warning">Reach us out</a>
+					<h1 class="display-2 font-weight-bold">Digital Agency at its best</h1>
+					<p class="lead">
+						MahatoTech helps you with everything you need to set up a digital platform for your business.  
+					</p>
+					<a href="#" class = "btn btn-outline-warning font-weight-bold">Reach us out</a>
 							
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/m2x.jpg" alt="First slide">
+				<img src="assets/images/m2.jpg" alt="First slide">
 				<div class="carousel-caption text-center">
-					<h1 class="display-2">Start something new</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	</p>				
-					<a href="#" class = "btn btn-outline-warning">Reach us out</a>
+					<h1 class="display-2 font-weight-bold">Websites</h1>
+					<p class="lead">Create SEO friendly CMS / E-commerce websites with the help of latest technologies tailored to your needs </p>				
+					<a href="<?php echo base_url().'websites' ?>" class = "btn btn-outline-warning font-weight-bold">Learn more</a>
 								
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="assets/images/m3x.jpg" alt="First slide">
+				<img src="assets/images/m3.jpg" alt="First slide">
 				<div class="carousel-caption text-center">
-					<h1 class="display-2">Start something new</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	</p>				
-					<a href="#" class = "btn btn-outline-warning">Reach us out</a>
+					<h1 class="display-2 font-weight-bold">Mobile Apps</h1>
+					<p class="lead">Launch mobile apps on the most popular platforms today tailored according to your needs.</p>				
+					<a href="<?php echo base_url().'mobile-app'?>" class = "btn btn-outline-warning font-weight-bold">Learn more</a>
 							
 				</div>
 			</div>
@@ -47,23 +48,11 @@
     <div class="jumbotron jumbotron-fluid bg-light" id = "overviewDiv">
         
 		  
-			<div class = "container col-sm-11 align-center">
-			     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			     proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			     proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<div class = "container col-sm-9 align-center">
+				<p class="lead text-center">
+					We are a digital agency who work with businesses, startups, corporate organizations and enterprenuers to create and improve their digital platforms easily and cost efficiently. 
+				</p>
+			     
 			
 		</div>
 	</div>
@@ -71,40 +60,60 @@
     <div class="jumbotron jumbotron-fluid bg-white" id = "servicesDiv"> 
 		<div class = "container distinct">
 		  <h3 class="text-center text-capitalize font-weight-bold">Services to meet your needs</h3>
-		  <hr style="   width: 17%;
-					    background-color: black;
-					    height: 1px;
-					    margin-top: 2em;
-					    margin-bottom: 4em;">
 		  <br>
+		  
+		  <p class="text-center">We help you grow your business by creating digital platforms tailored specific to your needs.</p>
+		  <br>
+
 		  <div class="row">
-		  	<div class="col-md-4 text-center">
+		  	<div class="col-lg-3 text-center">
 		  	  	<div class = "div-corners">
 		  	  		<ul>
-		  	  			<li class = "div-icon"><i class="far fa-bookmark"></i></li>
-		  	  			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		  	  			tempor incididunt ut labore et dolore magna aliqua.</li>
-		  	  			<li class="text-left"><a href="" class = 'btn btn-outline-primary-inverse '>Learn more</a></li>
+		  	  			<li class = "div-icon"><i class="fas fa-mobile-alt"></i></li>
+		  	  			<li class="h5">Mobile Application</li>
+		  	  			<hr>
+		  	  			<li>The world’s most popular platforms as of right now are, Android and iOS. We design and develop your idea into an excellent user-friendly mobile application perfectly tailored according your needs across these platforms. </li>
+		  	  			<li><a href="" class = 'btn btn-outline-primary-inverse '>Learn more</a></li>
 		  	  		</ul>
 		  	  	</div>
 		  	</div>
-		  	<div class="col-md-4 text-center">
-		  	  	<div class = "div-middle bg-dark text-white">
+		  	<div class="col-lg-3 text-center">
+		  	  	<div class = "div-corners">
 		  	  		<ul>
 		  	  			<li class = "div-icon"><i class="fas fa-desktop"></i></li>
-		  	  			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		  	  			tempor incididunt ut labore et dolore magna aliqua.</li>
-		  	  			<li class="text-left"><a href="" class = 'btn btn-outline-primary'>Learn more</a></li>
+		  	  			<li class="h5">Websites</li>
+		  	  			<hr>
+		  	  			<li>Almost every businesses these days have their online presence. We create an online presence for you using the most powerful tools and the latest technologies.</li>
+		  	  			<li><a href="" class = 'btn btn-outline-primary-inverse'>Learn more</a></li>
 		  	  		</ul>
 		  	  	</div>
 		  	</div>
-		  	<div class="col-md-4 text-center">
+		  	<div class="col-lg-3 text-center">
 		  	  	<div class = "div-corners">
 		  	  		<ul>
-		  	  			<li class = "div-icon"><i class="fas fa-sliders-h"></i></li>
-		  	  			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		  	  			tempor incididunt ut labore et dolore magna aliqua.</li>
-		  	  			<li class="text-left"><a href="" class = 'btn btn-outline-primary-inverse '>Learn more</a></li>
+		  	  			<li class = "div-icon"><i class="fas fa-shopping-cart"></i></li>
+		  	  			<li class="h5">E-Commerce</li>
+		  	  			<hr>
+		  	  			<li>
+		  	  				We help you generate more sales by creating robust e-commerce platforms using latest technologies and design enhanced for user-experience, specific for your business. 
+		  	  			</li>
+		  	  			<li><a href="" class = 'btn btn-outline-primary-inverse '>Learn more</a></li>
+		  	  		</ul>
+		  	  	</div>
+		  	</div>
+		  		<div class="col-lg-3 text-center">
+		  	  	<div class = "div-corners">
+		  	  		<ul>
+		  	  			<li class = "div-icon"><i class="fas fa-database"></i></li>
+		  	  			<li class="h5">Data Work</li>
+		  	  			<hr>
+		  	  			<li>
+		  	  				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		  	  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		  	  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		  	  				consequat.
+		  	  			</li>
+		  	  			<li><a href="" class = 'btn btn-outline-primary-inverse '>Learn more</a></li>
 		  	  		</ul>
 		  	  	</div>
 		  	</div>

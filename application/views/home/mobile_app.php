@@ -17,7 +17,7 @@
 				<h3 class="font-weight-bold">Build your app across popular platforms.</h3>
 				<p>
 					The world’s most popular platforms as of right now are, Android and iOS. 
-					Therefore, we design and develop your idea into an excellent user-friendly mobile application perfectly tailored according your needs across these platforms. 
+					We design and develop your idea into an excellent user-friendly mobile application perfectly tailored according your needs across these platforms. 
 				</p>	
 			</div>
 			<div class = "col-sm-6 text-white">
@@ -304,7 +304,7 @@
 </div>
 
 	<div class="jumbotron jumbotron-fluid bg-light text-left" id = "engagementDiv">
-        <div class = "container">
+        <div class = "container mobile-app-engagement-form-container">
 		<div class="row">
 			<div class = "col-sm-6">
 				<h3 class="font-weight-bold">

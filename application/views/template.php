@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title><?php echo $title; ?></title>
+	<title><?php echo 'MahatoTech | '. $title; ?></title>
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('favicon.ico'); ?>">
 	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/all.js'); ?>"></script>
@@ -19,6 +19,8 @@
 </head>
 
 
+
+
 <body>
 	<script type="text/javascript">
 		$('body').css({
@@ -29,7 +31,7 @@
 	</script>
 
 	<nav class="navbar navbar-expand-md navbar-light navbar-fixed bg-white" id = "navbar">	
-		<a class="navbar-brand" href="home"><img src="assets/images/Logo.png" class = "main-logo"></a>
+		<a class="navbar-brand" href="home"><img src="<?php echo base_url('assets/images/Logo.png'); ?>" class = "main-logo"></a>
 		<button class="navbar-toggler" id = "toggle" type="button" data-toggle="collapse" data-target="#rv-header" aria-controls="rv-header" aria-expanded="false" aria-label="Toggle navigation">
 			  <div class="hamburger hamburger--3dxy-r">
 			    <div class="hamburger-box">
@@ -58,13 +60,13 @@
 				<!-- Activate hyperlinks on pages except home -->
 				<?php if (uri_string() == "about"): ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "" href="">Mobile App</a>
+						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Websites</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">E-Commerce</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Data Work</a>
@@ -73,23 +75,95 @@
 						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" id = "about" href="about">About</a>
+						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="contact">Contact</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('contact'); ?>">Contact</a>
 					</li>
+
+				<?php elseif (uri_string() == "ecommerce"): ?>
+					<li class="nav-item">
+						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Data Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="<?php echo base_url('contact'); ?>">Contact</a>
+					</li>
+
+
+				<?php elseif (uri_string() == "mobile-app"): ?>
+					<li class="nav-item active">
+						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Data Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="<?php echo base_url('contact'); ?>">Contact</a>
+					</li>
+
+
+
+				<?php elseif (uri_string() == "websites"): ?>
+					<li class="nav-item">
+						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Data Work</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id = "contact" href="<?php echo base_url('contact'); ?>">Contact</a>
+					</li>	
 
 
 
 				<?php elseif (uri_string() == "contact"): ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Mobile App</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Websites</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">E-Commerce</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Data Work</a>
@@ -98,21 +172,21 @@
 						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "about" href="about">About</a>
+						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" id = "contact" href="contact">Contact</a>
+						<a class="nav-link active" id = "<?php echo base_url('contact'); ?>" href="contact">Contact</a>
 					</li>
 
 				<?php else: ?>			
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="mobile-app">Mobile App</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Websites</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">E-Commerce</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Data Work</a>
@@ -121,10 +195,10 @@
 						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "about" href="about">About</a>
+						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="contact">Contact</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('contact'); ?>">Contact</a>
 					</li>
 
 
@@ -183,14 +257,16 @@
 			<div class = "row">
 				<!-- Contact Details -->
 				<div class = "col-sm-2 text-muted">
-					<p>Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi </p>
-					<p>96522 (257) 563-7401</p>
+					<p>Mahatotech Ltd</p>
+					<p>3 North Ash, Hawthorn Close, RH122BW, UK</p>
+					<p>01403432047</p>
+
 				</div>
-				<div class = "col-sm-2 text-muted">					
+				<!-- <div class = "col-sm-2 text-muted">					
 					<p>Forrest Ray 191-103 Integer Rd. Corona New Mexico 
 08219 (404) 960-3807</p>
 					<p>08219 (404) 960-3807</p>
-				</div>
+				</div> -->
 			</div>
 			<br>
 
@@ -225,7 +301,7 @@
 
 				<!-- Copyright -->
 				<div class = "col-sm-4 font-weight-bold text-center">
-					<p>&copy <?php echo date('Y'); ?> Some Company Pvt Ltd</p>	
+					<p>&copy <?php echo date('Y'); ?> MahatoTech Ltd</p>	
 				</div>
 
 				<!-- Media icons -->

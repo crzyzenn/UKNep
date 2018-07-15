@@ -1,4 +1,4 @@
-<div class = "page-header" style="background: url('assets/images/contactX.jpg'); background-position: center; background-size: cover;">
+<div class = "page-header" style="background: url('<?php echo base_url("assets/images/contactX.jpg"); ?>'); background-position: center; background-size: cover;">
 	<div class = "page-header-caption">
 	<h3>Book or call us</h3>
 	<p>
@@ -8,34 +8,61 @@
 </div>
 </div>
 
+<?php 
+	
+	if (isset($_SESSION['email_sent'])) {
+		?>
+
+		<div class="alert alert-success" role="alert">
+			<?php echo $_SESSION['email_sent']; ?>
+		</div>
+
+		<?
+	}
+	
+
+?>
+
+
 <div class="jumbotron jumbotron-fluid bg-light">
 	<div class="container text-center">
 		<br>
-		<form>
+		<?php echo form_open('contact/send', 'GET'); ?>
 			<div class="form-group">
 				
 				<div class="col-sm-12">
-					<input type="text" class="form-control" id="inputEmail3" placeholder="First Name *">
+					<?php echo form_input('fname', '', ['placeholder'=>'First name', 'class' => 'form-control']); ?>
+					
+					    <?php echo form_error('fname', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
+					
 				</div>
 			</div>
 			<div class="form-group">
 				<div class="col-sm-12">
-					<input type="text" class="form-control" id="inputPassword3" placeholder="Last Name *">
+					<?php echo form_input('lname', '', ['placeholder'=>'Last name', 'class' => 'form-control']); ?>
+					<?php echo form_error('lname', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
 				</div>
 			</div>
 			<div class="form-group">
 				<div class="col-sm-12">
-					<textarea cols="12" rows="6" class="form-control" placeholder="Enquiry"></textarea>
+					<?php echo form_input('email', '', ['placeholder'=>'example@example.com', 'class' => 'form-control']); ?>
+					<?php echo form_error('email', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
 				</div>
 			</div>
-			
+			<div class="form-group">
+				<div class="col-sm-12">
+					<?php echo form_textarea('details', '', ['rows' => '10', 'cols' => '10', 'placeholder'=>'Enquiries', 'class' => 'form-control']); ?>
+					<?php echo form_error('details', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
+					
+				</div>
+			</div>
 			
 			<div class="form-group">
 				<div class="col-sm-12 text-left">
 					<button type="submit" class="btn btn-secondary">Submit</button>
 				</div>
 			</div>
-		</form>
+		<?php echo form_close(); ?>
 	</div>
 </div>
 
@@ -45,21 +72,21 @@
 		  <hr style = "margin-bottom: 3em; background-color: black; width: 10%;">
 
 		  <div class="row">
-		  	<div class="col-md-6 text-center text-muted">
+		  	<div class="col-md-12 text-center text-muted">
 		  	  	<div class = "div-location">
 		  	  		<ul>
-	  	  				<li><img src="assets/images/london.jpg"></li>
+	  	  				<li><img src="<?php echo base_url('assets/images/london.jpg'); ?>"></li>
 	  	  				<li><p><b>London</b></p></li>
 	  	  				<li>
-	  	  					<p>Cecilia Chapman
-								711-2880 Nulla St.
-								Mankato Mississippi <br>96522
-								(257) 563-7401
+	  	  					<p>
+	  	  						3 North Ash, Hawthorn Close, RH122BW, UK
+	  	  						<br>
+	  	  						01403432047
 							</p>
 						</li>	
 	  	  				<li>
 	  	  					<p>
-	  	  						<a href="https://goo.gl/maps/2VbUL7xgvHF2" class="btn btn-outline-primary-inverse" target="_blank" style="padding: 0;">
+	  	  						<a href="https://goo.gl/maps/eM6anR9Zbek" class="btn btn-outline-primary-inverse" target="_blank" style="padding: 0;">
 	  	  							View Map
 	  	  						</a>
 	  	  					</p>
@@ -67,7 +94,7 @@
 		  	  		</ul>
 		  	  	</div>
 		  	</div>		  	
-		  	<div class="col-md-6 text-center text-muted">
+		  	<!-- <div class="col-md-6 text-center text-muted">
 		  	  	<div class = "div-location">
 		  	  		<ul>
 	  	  				<li><img src="assets/images/nepal.jpg"></li>
@@ -89,7 +116,7 @@
 	  	  				</li>  	  				
 		  	  		</ul>
 		  	  	</div>
-		  	</div>	
+		  	</div>	 -->
 		  </div>
 		  	
 		</div>

@@ -22,7 +22,7 @@ class About extends CI_Controller {
 
 	public function index()
 	{
-		$data['title'] = 'Website | About'; 
+		$data['title'] = 'About'; 
 		$data['content'] = $this->load->view('home/about', "", TRUE); 
 		$this->load->view('template', $data); 
 
