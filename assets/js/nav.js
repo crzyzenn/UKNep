@@ -6,125 +6,6 @@ $(window).on('load', function(){
 		class: 'navbar navbar-expand-md navbar-light bg-white navbar-shadow'	    		
 	});
 
-	// Set hide animation status to hide
-	var hideEvent = 1;
-
-	// Toggle active classes on the URL clicked
-	$('#rv-header').on('click', '.dropdown-item', function(event){
-		
-		// // Prevent some button clicks
-		// if(this.id != "director" && this.id != "gallery"){
-			event.preventDefault();
-		// }
-
-		// if(this.id == "search"){
-			
-			
-		// }
-
-		// if(this.id == "home"){
-
-		// 	// DIV to go to
-		// 	var section = "#" + this.id + "Div"; 
-		// 	console.log(section);
-		// 	try{
-		// 		// Auto scroll to that div
-		// 		$('html, body').animate({
-		// 		    scrollTop: ($(section).offset().top - 100)
-		// 		},500);
-
-
-		// 		// Set active class to the link clicked
-		// 		// $(this).closest('li').attr('class', 'nav-item active');	
-		// 	}
-		// 	catch(err){
-		// 		// window.location = "home";
-		// 		console.log(err);  
-		// 	}
-			
-		// }
-		// else{
-		// 	// Reset active classes
-		// 	disable_active_links();
-
-		// 	// DIV to go to
-		// 	var section = "#" + this.id + "Div"; 
-		// 	try{
-		// 		// Auto scroll to that div
-		// 		$('html, body').animate({
-		// 		    scrollTop: ($(section).offset().top - 100)
-		// 		},500);
-
-
-		// 		// Set active class to the link clicked
-		// 		$(this).closest('li').attr('class', 'nav-item active');	
-		// 	}
-		// 	catch(err){
-		// 		window.location = "home"; 
-		// 	}
-		// }	
-
-			disable_active_links();
-
-			var section = "#" + this.id + "Div"; 
-			$('html, body').animate({
-			    scrollTop: ($(section).offset().top - 100)
-			},500);
-
-			$(this).attr("class", "dropdown-item active");
-
-
-		
-		
-	}); 
-		
-
-	// For footer links
-	$('.footerLinks').on('click', '.text-muted', function(event){
-		// Only prevent button clicks if the button's not home
-		if(this.id != "home" && this.id != "director" && this.id != "gallery"){
-			event.preventDefault();
-		}
-		
-
-		// DIV to go to
-		var section = "#" + this.id + "Div"; 
-
-
-		try{
-			// Auto scroll to that div
-			$('html, body').animate({
-			    scrollTop: ($(section).offset().top - 100)
-			},500);	
-		}
-		catch(err){
-			window.location = "home"; 
-		}
-		
-	}); 	
-
-
-
-
-	var height = 0; 
-
-	$('.thumbnail').hover(function() {
-
-
-		var elem = $(this).find('.caption'); 
-		height = parseInt(elem.find('p').css('height')) + 48;
-		// console.log(elem.css('height') + " new = " + height);
-
-		elem.animate({
-			height: '100%'},
-			200);
-	}, function() {		
-		var elem = $(this).find('.caption');
-		elem.animate({
-			height: height},
-			500);
-	});
-
 	// Show navbar on scroll
 	// Navbar visible on scroll
 	$(window).scroll(function (event) {
@@ -166,16 +47,6 @@ $(window).on('load', function(){
 	}
 
 
-	// Hover action for director's links
-	$('.director-link').hover(function() {
-		var elem = $(this); 
-		elem.attr('class', 'col-sm-3 text-center bg-dark text-muted director-link');
-	}, function() {
-		var elem = $(this); 
-		
-		elem.attr('class', 'col-sm-3 text-center bg-light text-muted director-link');
-	});
-
 
 
 
@@ -209,6 +80,18 @@ $(window).on('load', function(){
         }
 
       });
+    });
+
+
+
+
+    // Go to engagement section onclick
+    $('.engagementBtn').on('click', function(event) {
+    	event.preventDefault();
+    	var section = $('#engagementDiv'); 
+    	$('html, body').animate({
+    		scrollTop: ($(section).offset().top - 100)},
+    		1000);
     });
 
 

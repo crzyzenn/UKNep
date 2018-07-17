@@ -1,18 +1,19 @@
-<div class = "page-header" style="background: url('assets/images/aboutX.jpg'); background-position: center; background-size: cover;">
+<div class = "page-header" style="background: url('<?php echo base_url("mahatotech/assets/images/aboutX.jpg") ?>'); background-position: center; background-size: cover;">
 	<div class = "page-header-caption">
-	<p class="lead">
-		[Company] is a full-service digital platform maker dedicated to helping our clients build a digital platform for their reputed businesses. We are completely independent, so our loyalty belongs exclusively to our clients -- not to a parent company.
+		<h3>Your digital companion</h3>
+		<p>
+			MahatoTech is a full-service digital agency dedicated to helping our clients build a digital platform for their reputed businesses. We are completely independent, so our loyalty belongs exclusively to our clients -- not to a parent company.
 
-	</p>
-</div>
+		</p>
+	</div>
 </div>
 
-<div class="jumbotron jumbotron-fluid bg-light">
+<div class="jumbotron jumbotron-fluid bg-light text-center">
 	<div class="container">
-		<h3 class="font-weight-bold text-left">The committee of groups with one crucial mission.</h3>
+		<h3 class="font-weight-bold">The committee of groups with the same mission</h3>
 		<br>
 		<p class="lead">
-			At [Company], we believe that a plan is a powerful tool. Reaching your long-term objectives hinges on having the right plan -- one that fits your unique circumstances and grows with you. Planning on where your digital platform exist can be a daunting task. That's where [Company] comes in. We're trained, licensed professionals, and we can draw on years of experience when creating a long-term strategy. Whether your concern is not being able to plan the right platform for your business or the budget, we can help you.
+			At MahatoTech, we believe that a plan is a powerful tool. Reaching your long-term objectives hinges on having the right plan -- one that fits your unique circumstances and grows with you. Planning on where your digital platform exist can be a daunting task. That's where we come in. We're trained, licensed professionals, and we can draw on years of experience when creating a long-term strategy. Whether your concern is not being able to plan the right platform for your business or the budget, we can help you.
 		</p>
 	</div>
 </div>
@@ -113,13 +114,13 @@
 <div class="jumbotron jumbotron-fluid bg-white" id = "teamDiv"> 
 		<div class = "container">
 		  <h3 class="text-center font-weight-bold">Our Locations</h3>
-		  <hr style = "margin-bottom: 3em; background-color: black; width: 10%;">
+		  
 
 		  <div class="row">
 		  	<div class="col-md-12 text-center text-muted">
 		  	  	<div class = "div-location">
 		  	  		<ul>
-	  	  				<li><img src="assets/images/london.jpg"></li>
+	  	  				<li><img src="<?php echo base_url('mahatotech/assets/images/london.jpg') ?>"></li>
 	  	  				<li><p><b>London</b></p></li>
 	  	  				<li>
 	  	  					<p>Cecilia Chapman

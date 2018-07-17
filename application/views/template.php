@@ -4,16 +4,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo 'MahatoTech | '. $title; ?></title>
-	<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('favicon.ico'); ?>">
-	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/all.js'); ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/nav.js'); ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap.bundle.js'); ?>"></script>
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>">
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/hamburgers.css'); ?>">
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('mahatotech/favicon.ico'); ?>">
+	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/jquery.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/all.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/nav.js'); ?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/bootstrap.bundle.js'); ?>"></script>
+	<link rel="stylesheet" href="<?php echo base_url('mahatotech/assets/css/style.css'); ?>">
+	<link rel="stylesheet" href="<?php echo base_url('mahatotech/assets/css/hamburgers.css'); ?>">
 
-	<!-- Gallery -->
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/simpleLightbox.min.css'); ?>">
 
 
 </head>
@@ -31,7 +29,7 @@
 	</script>
 
 	<nav class="navbar navbar-expand-md navbar-light navbar-fixed bg-white" id = "navbar">	
-		<a class="navbar-brand" href="home"><img src="<?php echo base_url('assets/images/Logo.png'); ?>" class = "main-logo"></a>
+		<a class="navbar-brand" href="<?php echo base_url('home') ?>"><img src="<?php echo base_url('mahatotech/assets/images/Logo.png'); ?>" class = "main-logo"></a>
 		<button class="navbar-toggler" id = "toggle" type="button" data-toggle="collapse" data-target="#rv-header" aria-controls="rv-header" aria-expanded="false" aria-label="Toggle navigation">
 			  <div class="hamburger hamburger--3dxy-r">
 			    <div class="hamburger-box">
@@ -63,14 +61,12 @@
 						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">eCommerce</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Data Work</a>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
@@ -86,14 +82,12 @@
 						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">eCommerce</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Data Work</a>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
@@ -110,14 +104,12 @@
 						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">eCommerce</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Data Work</a>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
@@ -130,19 +122,17 @@
 
 
 
-				<?php elseif (uri_string() == "websites"): ?>
+				<?php elseif (uri_string() == "site"): ?>
 					<li class="nav-item">
 						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">eCommerce</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Data Work</a>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
@@ -160,14 +150,12 @@
 						<a class="nav-link" id = "contact" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">eCommerce</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Data Work</a>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
@@ -183,14 +171,12 @@
 						<a class="nav-link" id = "contact" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('websites'); ?>">Websites</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">E-Commerce</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('ecommerce'); ?>">eCommerce</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Data Work</a>
-					</li>
+					
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="">Testimonials</a>
 					</li>
@@ -276,25 +262,22 @@
 				<div class = "col-sm-4">
 					<ul class="list-inline footerLinks font-weight-bold">
 						<li class="list-inline-item">
-							<a class = "text-muted-custom" href="home">Mobile App</a>  
+							<a class = "text-muted-custom" href="<?php echo base_url('mobile-app') ?>">Mobile App</a>  
 						</li>
 						<li class="list-inline-item">
-							<a class="text-muted-custom" href="">Websites</a>  
+							<a class="text-muted-custom" href="<?php echo base_url('site') ?>">Website</a>  
 						</li>
 						<li class="list-inline-item">
-							<a class="text-muted-custom" href="">E-Commerce</a>  
-						</li>
-						<li class="list-inline-item">
-							<a class="text-muted-custom" href="">Data-Work</a>  
-						</li>
+							<a class="text-muted-custom" href="<?php echo base_url('ecommerce') ?>">eCommerce</a>  
+						</li>						
 						<li class="list-inline-item">
 							<a class="text-muted-custom" href="">Testimonials</a>  
 						</li>
 						<li class="list-inline-item">
-							<a class="text-muted-custom" href="">About</a> 
+							<a class="text-muted-custom" href="<?php echo base_url('about') ?>">About</a> 
 						</li>
 						<li class="list-inline-item">
-							<a class="text-muted-custom" href="contact">Contact</a>  
+							<a class="text-muted-custom" href="<?php echo base_url('contact') ?>">Contact</a>  
 						</li>
 					</ul>	
 				</div>
@@ -337,84 +320,6 @@
 	</div>
 
 
-
-	<script type="text/javascript" src="assets/js/simple-lightbox.js"></script>
-	<script>
-		$(function(){
-
-    	
-			
-			var $gallery = $('.gallery a').simpleLightbox();
-
-			$gallery.on('show.simplelightbox', function(){
-				console.log('Requested for showing');
-			})
-			.on('shown.simplelightbox', function(){
-				console.log('Shown');
-			})
-			.on('close.simplelightbox', function(){
-				console.log('Requested for closing');
-			})
-			.on('closed.simplelightbox', function(){
-				console.log('Closed');
-			})
-			.on('change.simplelightbox', function(){
-				console.log('Requested for change');
-			})
-			.on('next.simplelightbox', function(){
-				console.log('Requested for next');
-			})
-			.on('prev.simplelightbox', function(){
-				console.log('Requested for prev');
-			})
-			.on('nextImageLoaded.simplelightbox', function(){
-				console.log('Next image loaded');
-			})
-			.on('prevImageLoaded.simplelightbox', function(){
-				console.log('Prev image loaded');
-			})
-			.on('changed.simplelightbox', function(){
-				console.log('Image changed');
-			})
-			.on('nextDone.simplelightbox', function(){
-				console.log('Image changed to next');
-			})
-			.on('prevDone.simplelightbox', function(){
-				console.log('Image changed to prev');
-			})
-			.on('error.simplelightbox', function(e){
-				console.log('No image found, go to the next/prev');
-				console.log(e);
-			});
-		});
-
-		$(document).ready(function(){
-    		$('[data-toggle="popover"]').popover();   
-		});
-	</script>
-	  <!-- <script>
-	  /**
-	   * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
-	   *
-	   * @private
-	   * @author Todd Motto
-	   * @link https://github.com/toddmotto/foreach
-	   * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
-	   * @callback requestCallback      callback   - Callback function for each iteration.
-	   * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
-	   * @returns {}
-	   */
-	    var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
-
-	    var hamburgers = document.querySelectorAll(".hamburger");
-	    if (hamburgers.length > 0) {
-	      forEach(hamburgers, function(hamburger) {
-	        hamburger.addEventListener("click", function() {
-	          this.classList.toggle("is-active");
-	        }, false);
-	      });
-	    }
-	  </script> -->
 
 </body>
 

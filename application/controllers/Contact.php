@@ -61,7 +61,7 @@ class Contact extends CI_Controller {
 			$config = Array(
 			  'protocol' => 'smtp',
 			  'smtp_host' => 'ssl://smtp.googlemail.com',
-			  'smtp_port' => 465,
+			  'smtp_port' => 2096,
 			  'smtp_user' => 'enquiries.mahatotech@gmail.com', // change it to yours
 			  'smtp_pass' => 'mahatotech12345', // change it to yours
 			  'mailtype' => 'html',

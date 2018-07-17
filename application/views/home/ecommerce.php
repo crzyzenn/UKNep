@@ -1,4 +1,4 @@
-<div class = "page-header" style="background: url('assets/images/ecommerce.jpg'); background-position: center; background-size: cover;">
+<div class = "page-header" style="background: url('<?php echo base_url("mahatotech/assets/images/ecommerce.jpg") ?>'); background-position: center; background-size: cover;">
 	<div class = "page-header-caption">
 	<h3 class="display-4">Create an E-Commerce platform for your business.</h3>
 	<hr>
@@ -6,6 +6,9 @@
 				
 		Our customers will get the benefit of a truly immersive online shopping experience that works 24/7 generating thousands of leads and sales.
 
+	</p>
+	<p>
+		<a href="" class="btn btn-outline-warning engagementBtn" title="">Book your consultation</a>
 	</p>
 </div>
 </div>
@@ -34,7 +37,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6 text-center">
-				<img src="<?php echo base_url('assets/images/ecommerce2.png'); ?>">
+				<img src="<?php echo base_url('mahatotech/assets/images/ecommerce2.png'); ?>">
 			</div>
 			
 		</div>
@@ -42,7 +45,7 @@
 	
 </div>
 
-<div class = "work-div" style="background: url('assets/images/ecommerce3.png'); background-position: center; background-size: cover;">
+<div class = "work-div" style="background: url(<?php echo base_url('mahatotech/assets/images/ecommerce3.jpg') ?>); background-position: center; background-size: cover;">
 	<div class = "work-div-caption">
 	<h3 class="display-4">Why work with us? </h3>
 		<p>
@@ -50,7 +53,7 @@
 			Because we take time to get to know your brand, plan all the requirements to create a strikingly robust platform specific to your business that puts customers at the  center of the experience which genereates more sales and visits.  
 		</p>
 		<p>
-			<a href="" class = "btn btn-outline-primary" title="">Book a free consultation</a>
+			<a href="" class = "btn btn-outline-default engagementBtn" title="">Book a free consultation</a>
 		</p>
 	</div>
 
@@ -58,108 +61,116 @@
 
 
 
-<div class="jumbotron jumbotron-fluid bg-light" id = "teamDiv"> 
-		<div class = "container workflow">
-		  <h3 class="text-center font-weight-bold">Creating an E-Commerce platform for your business</h3>
-		  <p class="text-center">
-		  	This is how we bring value to your project, maximize sales and engagements on the websites that we build:
+<div class="jumbotron jumbotron-fluid bg-white text-center" id = "teamDiv"> 
+	<div class = "container workflow">
+		<h3 class=" font-weight-bold">How we build an E-Commerce platform for your business</h3>
+		<p class="lead">
+			This is how we bring value to your project, maximize sales and engagements on the ecommerce platforms that we build. 
+
+		</p>				  
+		<br><br>
+		<div class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="display-3"><i class="far fa-play-circle"></i></p>
+	  			  	<p class="lead font-weight-bold">Initiate</p>
+				</div>
+				<div class="col-sm-6 text-left">					
+  			  		<ul>
+			  			<li>We start by signing an NDA so that your idea is safe with us,</li>
+		  				<li>We learn and discuss about your idea, brand and your business,</li>
+		  				<li>We come up with solutions that matches your organization's goals 	and figure out the correct platform to implement those solutions 	on,
+		  				</li>
+		  				<li>
+		  					You'll receive a project proposal which contains the detail information on timeframes and the total cost. 
+		  				</li>
+		  			</ul>	
+				</div>
+			</div>
 
 
 
-		  </p>				  
-		  <br><br>
-		  <div class="row">
-		  	<div class="col-sm-12 text-left text-muted">
-		  		<div class="row">
-		  			<div class="col-sm-6 text-center">
-		  			  	<p class="lead display-2">1</p>
-		  			  	<p class="font-weight-bold">Heading</p>
-  			  		</div>  		
-  			  		<div class="col-sm-6">
-	  			  		<ul>
-  			  				<li>The first step,</li>
-  			  				<li>Then we cover the second step,</li>
-  			  				<li>Then we cover the third step,</li>
-  			  				<li>Finally we cover the fourth step.</li>
-  			  			</ul>	
-  			  		</div>  		
-	  		  	</div>  
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="display-3"><i class="fas fa-pen-nib"></i></p>
+	  			  	<p class="lead font-weight-bold">Design</p>
+				</div>
+				<div class="col-sm-6 text-left">					
+  			  		<ul>
+  			  			<li>
+  			  				We start by getting to know your target audience, your organization's goals and your expectations from the e-commerce website,
+  			  			</li>
+  			  			<li>
+  			  				We'll gather opinions about the design patterns, color schemes from you, 
+  			  			</li>
+		  				<li>
+		  					Our design experts will then develop wireframes designs for your e-commerce website,
+		  				</li>
+		  				<li>
+		  					We'll gather feedbacks from you as well as from a few people that matches your target audience,
+		  				</li>
+		  				<li>
+		  					Then our team will proceed to customer centric UI / UX Design for both web and mobile layouts and create a workable prototype through prototype designing tools, 
+		  				</li>
+		  				<li>
+		  					Then, you'll be able to test out the prototype and we'll gather your feedbacks.
+		  				</li>  			  				
+		  			</ul>	
+				</div>
+			</div>
 
-	  		  	<hr>
 
-	  		  	<div class="row">
-		  			<div class="col-sm-6 text-center">
-		  			  	<p class="lead display-2">2</p>
-		  			  	<p class="font-weight-bold">Heading</p>
-  			  		</div>  		
-  			  		<div class="col-sm-6">
-	  			  		<ul>
-  			  				<li>The first step,</li>
-  			  				<li>Then we cover the second step,</li>
-  			  				<li>Then we cover the third step,</li>
-  			  				<li>Finally we cover the fourth step.</li>
-  			  			</ul>	
-  			  		</div>  		
-	  		  	</div> 
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="display-3"><i class="fas fa-code"></i></p>
+	  			  	<p class="lead font-weight-bold">Develop</p>
+				</div>
+				<div class="col-sm-6 text-left">					
+  			  		<ul>
+		  				<li>We start by breaking down the project into modules based on the project specification document,</li>
+		  				<li>Each module after completion, we perform product demos where we learn about the defects and come up with a solution for those. This happens iteratively for each module.</li>
+		  			</ul>
+				</div>
+			</div>
 
-	  		  	<hr>
 
-	  		  	<div class="row">
-		  			<div class="col-sm-6 text-center">
-		  			  	<p class="lead display-2">3</p>
-		  			  	<p class="font-weight-bold">Heading</p>
-  			  		</div>  		
-  			  		<div class="col-sm-6">
-	  			  		<ul>
-  			  				<li>The first step,</li>
-  			  				<li>Then we cover the second step,</li>
-  			  				<li>Then we cover the third step,</li>
-  			  				<li>Finally we cover the fourth step.</li>
-  			  			</ul>	
-  			  		</div>  		
-	  		  	</div> 
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="display-3"><i class="fas fa-vials"></i></p>
+	  			  	<p class="lead font-weight-bold">Test</p>
+				</div>
+				<div class="col-sm-6 text-left">					
+  			  		<ul>
+		  				<li>We start by providing you the test plan document and carry out testing such as:</li>
+		  				<li>White box / Black box testing,</li>
+		  				<li>Functionality testing,</li>
+		  				<li>User engagement testing,</li>
+		  				<li>Client acceptance testing,</li>
+		  				<li>Regression testing,</li>
+		  				<li>Code & Design review</li>
 
-	  		  	<hr>
+		  			</ul>	
+				</div>
+			</div>
 
-	  		  	<div class="row">
-		  			<div class="col-sm-6 text-center">
-		  			  	<p class="lead display-2">4</p>
-		  			  	<p class="font-weight-bold">Heading</p>
-  			  		</div>  		
-  			  		<div class="col-sm-6">
-	  			  		<ul>
-  			  				<li>The first step,</li>
-  			  				<li>Then we cover the second step,</li>
-  			  				<li>Then we cover the third step,</li>
-  			  				<li>Finally we cover the fourth step.</li>
-  			  			</ul>	
-  			  		</div>  		
-	  		  	</div> 
 
-	  		  	<hr>
-
-	  		  	<div class="row">
-		  			<div class="col-sm-6 text-center">
-		  			  	<p class="lead display-2">5</p>
-		  			  	<p class="font-weight-bold">Heading</p>
-  			  		</div>  		
-  			  		<div class="col-sm-6">
-	  			  		<ul>
-  			  				<li>The first step,</li>
-  			  				<li>Then we cover the second step,</li>
-  			  				<li>Then we cover the third step,</li>
-  			  				<li>Finally we cover the fourth step.</li>
-  			  			</ul>	
-  			  		</div>  		
-	  		  	</div> 
-
-		  	</div>		  				
-		  	
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="display-3"><i class="fas fa-paint-roller"></i></p>
+	  			  	<p class="lead font-weight-bold">Maintain & Optimize</p>
+				</div>
+				<div class="col-sm-6 text-left">					
+  			  		<ul>
+		  				<li>We will help you maintain and optimize your e-commerce website for optimal performance,</li>
+		  				<li>We will also help you upgrade your website with more features down the road,</li>
+		  				<li>With our 24/7 support, we will continue to help you optimize your website.</li>  			  				
+		  			</ul>	
+				</div>
+			</div>
 		</div>
-
+			  
 	</div>
 </div>
-
 
 <div class="jumbotron jumbotron-fluid bg-dark text-white">
 	<div class="container booking-consultation-div">
@@ -170,7 +181,7 @@
 				</h3>
 			</div>
 			<div class="col-sm-12">
-				<a href="" class="btn btn-outline-warning" title="">Book your consultation</a>
+				<a href="" class = "btn btn-outline-default engagementBtn" title="">Book a free consultation</a>
 			</div>
 		</div>
 	</div>
@@ -192,25 +203,25 @@
 			<div class="col-sm-4">
 				<p class="lead">Mobile Applications</p>
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/logos/android-logo.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/apple.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/windowsphone.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/android-logo.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/apple.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/windowsphone.png'); ?>" alt=""></li>
 				</ul>
 			</div>
 			<div class="col-sm-4">
 				<p class="lead">Programming Languages</p>
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/logos/php.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/cpp.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/java.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/php.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/cpp.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/java.png'); ?>" alt=""></li>
 				</ul>
 			</div>
 			<div class="col-sm-4">
 				<p class="lead">Database Management Systems</p>
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/logos/mysql.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/mongodb.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/firebase.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/mysql.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/mongodb.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/firebase.png'); ?>" alt=""></li>
 				</ul>
 			</div>
 		</div>
@@ -218,24 +229,24 @@
 			<div class="col-sm-4">
 				<p class="lead">IDEs</p>
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/logos/sublime-text.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/atom.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/visualstudio.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/sublime-text.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/atom.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/visualstudio.png'); ?>" alt=""></li>
 				</ul>
 			</div>
 			<div class="col-sm-4">
 				<p class="lead">Prototyping tools</p>
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/logos/sketch.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/adobexd.png'); ?>" alt=""></li>					
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/sketch.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/adobexd.png'); ?>" alt=""></li>					
 				</ul>
 			</div>
 			<div class="col-sm-4">
 				<p class="lead">Frameworks</p>
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/logos/codeigniter.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/laravel.png'); ?>" alt=""></li>
-					<li><img src="<?php echo base_url('assets/images/logos/angular.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/codeigniter.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/laravel.png'); ?>" alt=""></li>
+					<li><img src="<?php echo base_url('mahatotech/assets/images/logos/angular.png'); ?>" alt=""></li>
 				</ul>
 			</div>
 		</div>
@@ -253,20 +264,20 @@
 		<br><br>
 		<div class = "row text-center">
 			<div class="col-sm-5">
-				<img src="<?php echo base_url('assets/images/platform1.png'); ?>" alt="">	
+				<img src="<?php echo base_url('mahatotech/assets/images/platform1.png'); ?>" alt="">	
 				<p>
 					Shopify is a cloud-based ecommerce store platform used by businesses (and many entrepreneurs) to set up online shops that can sell almost anything
 				</p>
 			</div>
 			<div class="col-sm-7">
 				
-				<img src="<?php echo base_url('assets/images/platform1-1.png'); ?>" alt="">					
+				<img src="<?php echo base_url('mahatotech/assets/images/platform1-1.png'); ?>" alt="" width = "100%">					
 			</div>
 				
 		</div>
 		<div class = "row text-center">
 			<div class="col-sm-5">
-				<img src="<?php echo base_url('assets/images/platform2.png'); ?>" alt="">	
+				<img src="<?php echo base_url('mahatotech/assets/images/platform2.png'); ?>" alt="">	
 				<p>
 					Magento is an open source CMS that gives business owners an opportunity to expand their business operations in the digital e-commerce world. It's a powerful system, flexible, scalable and easy to customize.
 
@@ -275,7 +286,7 @@
 			</div>
 			<div class="col-sm-7">
 				
-				<img src="<?php echo base_url('assets/images/platform2-2.png'); ?>" alt="">					
+				<img src="<?php echo base_url('mahatotech/assets/images/platform2-2.png'); ?>" alt="" width = "100%">					
 			</div>
 				
 		</div>

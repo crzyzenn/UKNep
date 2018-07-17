@@ -1,8 +1,8 @@
-<div class = "page-header" style="background: url('<?php echo base_url("assets/images/contactX.jpg"); ?>'); background-position: center; background-size: cover;">
+<div class = "page-header" style="background: url('<?php echo base_url("mahatotech/assets/images/contactX.jpg"); ?>'); background-position: center; background-size: cover;">
 	<div class = "page-header-caption">
 	<h3>Book or call us</h3>
 	<p>
-		If you have any questions, please call us at [phone number] or e-mail us at [e-mail address]. We will be happy to help. We look forward to talking with you. 
+		If you have any questions, please call us at 01403432047. We will be happy to help. We look forward to talking with you. 
 		Or, Book your free consultation with our team today by filling out the form below. 
 	</p>
 </div>
@@ -69,13 +69,13 @@
 <div class="jumbotron jumbotron-fluid bg-white" id = "teamDiv"> 
 		<div class = "container">
 		  <h3 class="text-center font-weight-bold">Our Locations</h3>
-		  <hr style = "margin-bottom: 3em; background-color: black; width: 10%;">
+		  
 
 		  <div class="row">
 		  	<div class="col-md-12 text-center text-muted">
 		  	  	<div class = "div-location">
 		  	  		<ul>
-	  	  				<li><img src="<?php echo base_url('assets/images/london.jpg'); ?>"></li>
+	  	  				<li><img src="<?php echo base_url('mahatotech/assets/images/london.jpg'); ?>"></li>
 	  	  				<li><p><b>London</b></p></li>
 	  	  				<li>
 	  	  					<p>
