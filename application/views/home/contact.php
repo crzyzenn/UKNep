@@ -1,6 +1,6 @@
 <div class = "page-header" style="background: url('<?php echo base_url("mahatotech/assets/images/contactX.jpg"); ?>'); background-position: center; background-size: cover;">
 	<div class = "page-header-caption">
-	<h3>Book or call us</h3>
+	<h3 class="display-4">Book or call us</h3>
 	<p>
 		If you have any questions, please call us at 01403432047. We will be happy to help. We look forward to talking with you. 
 		Or, Book your free consultation with our team today by filling out the form below. 
@@ -45,7 +45,7 @@
 			</div>
 			<div class="form-group">
 				<div class="col-sm-12">
-					<?php echo form_input('email', '', ['placeholder'=>'example@example.com', 'class' => 'form-control']); ?>
+					<?php echo form_input('email', '', ['placeholder'=>'Someone@example.com', 'class' => 'form-control']); ?>
 					<?php echo form_error('email', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
 				</div>
 			</div>

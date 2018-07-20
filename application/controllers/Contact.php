@@ -20,7 +20,9 @@ class Contact extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['title'] = 'Contact'; 
+		$data['metas'] = '<meta name="description" content="Based in the UK, MahatoTech, is your digital partner for your business who will help you achieve your business goals. Call us at 01403432047." />'; 
+		$data['caonical'] = '<link rel="canonical" href="http://mahato.co.uk/contact/" />';
+		$data['title'] = 'Website Designer, App Developer UK'; 
 		$data['content'] = $this->load->view('home/contact', "", TRUE); 
 		$this->load->view('template', $data); 
 

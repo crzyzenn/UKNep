@@ -20,7 +20,10 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['title'] = 'Home'; 
+
+		$data['metas'] = '<meta name="description" content="Build Mobile-apps, Websites, E-Commerce websites tailored specific for your business. Turn your idea into a reality. Contact us at 01403432047 or visit us.">';
+		$data['caonical'] = '<link rel="canonical" href="http://mahato.co.uk/home/" />';
+		$data['title'] = 'Websites, eCommerce, Mobile apps UK'; 
 		$data['content'] = $this->load->view('home/index', "", TRUE); 
 		$this->load->view('template', $data); 
 

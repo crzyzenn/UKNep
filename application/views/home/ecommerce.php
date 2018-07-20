@@ -417,6 +417,11 @@
 					</div>
 				</div>
 				<div class="form-group row">
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputPassword3" placeholder="Someone@example.com">
+						</div>
+					</div>
+				<div class="form-group row">
 					<div class="col-sm-10">
 						<textarea cols="12" rows="6" class="form-control" placeholder="Project details"></textarea>
 					</div>

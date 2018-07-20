@@ -22,7 +22,9 @@ class About extends CI_Controller {
 
 	public function index()
 	{
-		$data['title'] = 'About'; 
+		$data['metas'] = '<meta name="description" content="Based in the UK, MahatoTech, is your digital partner for your business who will help you achieve your business goals. Call us at 01403432047 | MahatoTech." />';
+		$data['caonical'] = '<link rel="canonical" href="http://mahato.co.uk/about/" />';
+		$data['title'] = 'Website Designer, App Developer UK'; 
 		$data['content'] = $this->load->view('home/about', "", TRUE); 
 		$this->load->view('template', $data); 
 

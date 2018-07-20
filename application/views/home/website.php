@@ -224,11 +224,11 @@
 	</div>
 </div>
 
-<div class="jumbotron jumbotron-fluid bg-light text-center">
+<div class="jumbotron jumbotron-fluid bg-white text-center">
 	
 	<div class="container web-website-container">
 		<h3 class="text-center font-weight-bold">
-			We use the latest In-web websites 
+			We use the latest in-web Technologies 
 		</h3>	
 
 		<br><br>
@@ -259,6 +259,21 @@
 				
 		</div>
 </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid bg-dark text-white">
+	<div class="container booking-consultation-div">
+		<div class="row text-center">
+			<div class="col-sm-12">				
+				<h3 class="font-weight-bold">
+					Thinking about representing yourself online? Create your website today.
+				</h3>
+			</div>
+			<div class="col-sm-12">
+				<a href="" class = "btn btn-outline-default engagementBtn" title="">Book a free consultation</a>
+			</div>
+		</div>
+	</div>
 </div>
 
 
@@ -347,7 +362,7 @@
 			</div>
 			<br><br><br><br>
 			<div class="col-sm-12 text-center">
-				<p class="h1">Your website deserves the best, after all it is the Internet advertising billboard for You and your Company.</p>
+				<p class="h1">We believe that success lies in between the co-operation of a <b class="text-uppercase">friendly team of professionals</b> and <b>YOU</b>.</p>
 			</div>
 			<div class="col-sm-12 text-right display-4">
 				<i class="fas fa-quote-right"></i>
@@ -355,6 +370,7 @@
 		</div>
 	</div>
 </div>
+
 
 
 
@@ -384,6 +400,11 @@
 						<input type="text" class="form-control" id="inputPassword3" placeholder="Last Name *">
 					</div>
 				</div>
+				<div class="form-group row">
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputPassword3" placeholder="Someone@example.com">
+						</div>
+					</div>
 				<div class="form-group row">
 					<div class="col-sm-10">
 						<textarea cols="12" rows="6" class="form-control" placeholder="Project details"></textarea>

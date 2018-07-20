@@ -5,7 +5,7 @@
 		With more than 10 years of experience in mobile app development, we can make your dream app a success. 		
 	</p>
 	<p>
-		<a href="" class = "btn btn-outline-warning" title="">Book a free consultation</a>
+		<a href="" class = "btn btn-outline-warning engagementBtn" title="">Book a free consultation</a>
 	</p>
 
 </div>
@@ -339,6 +339,11 @@
 					<div class="form-group row">
 						<div class="col-sm-10">
 							<input type="text" class="form-control" id="inputPassword3" placeholder="Last Name *">
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputPassword3" placeholder="Someone@example.com">
 						</div>
 					</div>
 					<div class="form-group row">

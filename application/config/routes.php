@@ -51,5 +51,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'home';
 $route['mobile-app'] = 'mobile_app';
+$route['our-work'] = 'our_work';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

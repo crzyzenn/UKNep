@@ -1,6 +1,6 @@
 <div class = "page-header" style="background: url('<?php echo base_url("mahatotech/assets/images/aboutX.jpg") ?>'); background-position: center; background-size: cover;">
 	<div class = "page-header-caption">
-		<h3>Your digital companion</h3>
+		<h3 class="display-4">Your digital companion</h3>
 		<p>
 			MahatoTech is a full-service digital agency dedicated to helping our clients build a digital platform for their reputed businesses. We are completely independent, so our loyalty belongs exclusively to our clients -- not to a parent company.
 
@@ -26,7 +26,7 @@
 			</div>
 			<br><br><br><br>
 			<div class="col-sm-12 text-center">
-				<p class="display-4">We believe that success lies in between the co-operation of a <b class="text-uppercase">friendly team of professionals</b> and <b>YOU</b>.</p>
+				<p class="h1">We believe that success lies in between the co-operation of a <b class="text-uppercase">friendly team of professionals</b> and <b>YOU</b>.</p>
 			</div>
 			<div class="col-sm-12 text-right display-4">
 				<i class="fas fa-quote-right"></i>
@@ -36,69 +36,46 @@
 </div>
 
 <div class="jumbotron jumbotron-fluid bg-light">
-	<div class="container">
-		<h3 class="font-weight-bold text-center">Our values</h3>
-		<hr style = "margin-bottom: 3em; background-color: black; width: 10%;">
+	<div class="container values-container">
+		<h3 class="font-weight-bold text-center">Our values</h3>		
 		
 		<!-- List of values -->
 		<div class = "row custom">
 			
 			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<h4 class="text-left font-weight-bold">Quality</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
+					We strive to provide quality work to our customers. We solve problems and help your business achieve its goals regardless of the project complexity. 
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<h4 class="text-left font-weight-bold">Teamwork</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
+					Having a good teamwork is essential for any project big or small. Therefore, having a healthy relationship between team members is the key for the success of our projects. 
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<h4 class="text-left font-weight-bold">Customer Commitment</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
+					Our customers are at the heart of what we do. We always listen to our customers and what they need and provide solutions that benefits their brand and their customers. 
+
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<h4 class="text-left font-weight-bold">Business Growth</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
+					Whatever applications we create for our customers, our end goal is to make sure that our work helps their business grow sustainably and maintain their ROI.
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<h4 class="text-left font-weight-bold">Respect others</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
-				</p>
-			</div>
+					We are always polite with our customers and help them with what they need to achieve their business goals. 
 
-			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat.
 				</p>
 			</div>
@@ -167,6 +144,7 @@
 		</div>
 
 	</div>
+</div>
 
 
 		

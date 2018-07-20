@@ -19,10 +19,11 @@ class Ecommerce extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-
 	public function index()
 	{
-		$data['title'] = 'E-commerce'; 
+		$data['metas'] = '<meta name="description" content="Build Ecommerce websites with ease with us. MahatoTech will create a robust eCommerce platform for your business to meet your business goals." />'; 
+		$data['caonical'] = '<link rel="canonical" href="http://mahato.co.uk/ecommerce/" />';
+		$data['title'] = 'Ecommerce website development UK - MahatoTech'; 
 		$data['content'] = $this->load->view('home/ecommerce', "", TRUE); 
 		$this->load->view('template', $data); 
 

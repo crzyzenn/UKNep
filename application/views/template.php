@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="NOODP">
 	<title><?php echo 'MahatoTech | '. $title; ?></title>
+	<?php echo $metas; ?>
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('mahatotech/favicon.ico'); ?>">
 	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/jquery.js'); ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/all.js'); ?>"></script>
@@ -11,6 +13,15 @@
 	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/bootstrap.bundle.js'); ?>"></script>
 	<link rel="stylesheet" href="<?php echo base_url('mahatotech/assets/css/style.css'); ?>">
 	<link rel="stylesheet" href="<?php echo base_url('mahatotech/assets/css/hamburgers.css'); ?>">
+
+	<!-- Structured data -->
+	<script type='application/ld+json'>
+	{"@context":"https:\/\/schema.org","@type":"Organization","url":"http:\/\/mahato.co.uk\/","name":"MahatoTech Ltd","logo":"http://localhost/mahatotech/favicon.ico"}
+	</script>
+
+	<script type='application/ld+json'>
+		{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/mahato.co.uk\/","name":"Web designer - App developer - Ecommerce UK - MahatoTech","potentialAction":{"@type":"SearchAction","target":"https:\/\/mahato.co.uk\/?s={search_term_string}","query-input":"required name=search_term_string"}}
+	</script>
 
 
 
@@ -29,7 +40,7 @@
 	</script>
 
 	<nav class="navbar navbar-expand-md navbar-light navbar-fixed bg-white" id = "navbar">	
-		<a class="navbar-brand" href="<?php echo base_url('home') ?>"><img src="<?php echo base_url('mahatotech/assets/images/Logo.png'); ?>" class = "main-logo"></a>
+		<a class="navbar-brand" href="<?php echo base_url('') ?>"><img src="<?php echo base_url('mahatotech/assets/images/Logo.png'); ?>" class = "main-logo"></a>
 		<button class="navbar-toggler" id = "toggle" type="button" data-toggle="collapse" data-target="#rv-header" aria-controls="rv-header" aria-expanded="false" aria-label="Toggle navigation">
 			  <div class="hamburger hamburger--3dxy-r">
 			    <div class="hamburger-box">
@@ -58,7 +69,7 @@
 				<!-- Activate hyperlinks on pages except home -->
 				<?php if (uri_string() == "about"): ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
+						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile app</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
@@ -68,7 +79,7 @@
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Testimonials</a>
+						<a class="nav-link" id = "contact" href="">Our work</a>
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
@@ -79,7 +90,7 @@
 
 				<?php elseif (uri_string() == "ecommerce"): ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
+						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile app</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
@@ -89,7 +100,7 @@
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Testimonials</a>
+						<a class="nav-link" id = "contact" href="">Our work</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
@@ -101,7 +112,7 @@
 
 				<?php elseif (uri_string() == "mobile-app"): ?>
 					<li class="nav-item active">
-						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
+						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile app</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
@@ -111,7 +122,7 @@
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Testimonials</a>
+						<a class="nav-link" id = "contact" href="">Our work</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
@@ -124,7 +135,7 @@
 
 				<?php elseif (uri_string() == "site"): ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
+						<a class="nav-link" id = "" href="<?php echo base_url('mobile-app'); ?>">Mobile app</a>
 					</li>
 					<li class="nav-item active">
 						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
@@ -134,7 +145,7 @@
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Testimonials</a>
+						<a class="nav-link" id = "contact" href="">Our work</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
@@ -147,7 +158,7 @@
 
 				<?php elseif (uri_string() == "contact"): ?>
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('mobile-app'); ?>">Mobile app</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
@@ -157,7 +168,7 @@
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Testimonials</a>
+						<a class="nav-link" id = "contact" href="">Our work</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
@@ -168,7 +179,7 @@
 
 				<?php else: ?>			
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="<?php echo base_url('mobile-app'); ?>">Mobile App</a>
+						<a class="nav-link" id = "contact" href="<?php echo base_url('mobile-app'); ?>">Mobile app</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "contact" href="<?php echo base_url('site'); ?>">Website</a>
@@ -178,7 +189,7 @@
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" id = "contact" href="">Testimonials</a>
+						<a class="nav-link" id = "contact" href="">Our work</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id = "about" href="<?php echo base_url('about'); ?>">About</a>
@@ -262,7 +273,7 @@
 				<div class = "col-sm-4">
 					<ul class="list-inline footerLinks font-weight-bold">
 						<li class="list-inline-item">
-							<a class = "text-muted-custom" href="<?php echo base_url('mobile-app') ?>">Mobile App</a>  
+							<a class = "text-muted-custom" href="<?php echo base_url('mobile-app') ?>">Mobile app</a>  
 						</li>
 						<li class="list-inline-item">
 							<a class="text-muted-custom" href="<?php echo base_url('site') ?>">Website</a>  
@@ -271,7 +282,7 @@
 							<a class="text-muted-custom" href="<?php echo base_url('ecommerce') ?>">eCommerce</a>  
 						</li>						
 						<li class="list-inline-item">
-							<a class="text-muted-custom" href="">Testimonials</a>  
+							<a class="text-muted-custom" href="">Our work</a>  
 						</li>
 						<li class="list-inline-item">
 							<a class="text-muted-custom" href="<?php echo base_url('about') ?>">About</a> 

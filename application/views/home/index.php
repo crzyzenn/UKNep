@@ -8,8 +8,8 @@
 		<div class="carousel-inner" role="listbox">			        
 			<div class="carousel-item active">
 				<img src="<?php echo base_url('mahatotech/assets/images/m1x.jpg'); ?>" alt="First slide">
-				<div class="carousel-caption text-center">
-					<h1 class="display-2 font-weight-bold">Digital Agency at its best</h1>
+				<div class="carousel-caption text-left">
+					<h1 class="display-2">go digital!</h1>
 					<p class="lead">
 						MahatoTech helps you with everything you need to set up a digital platform for your business.  
 					</p>
@@ -18,18 +18,18 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<?php echo base_url('mahatotech/assets/images/m2.jpg'); ?>" alt="First slide">
-				<div class="carousel-caption text-center">
-					<h1 class="display-2 font-weight-bold">Websites</h1>
+				<img src="<?php echo base_url('mahatotech/assets/images/m2x1.jpg'); ?>" alt="First slide">
+				<div class="carousel-caption text-left">
+					<h1 class="display-2 text-lowercase">Websites</h1>
 					<p class="lead">Create SEO friendly CMS / E-commerce websites with the help of latest technologies tailored to your needs </p>				
 					<a href="<?php echo base_url().'websites' ?>" class = "btn btn-outline-default font-weight-bold">Learn more</a>
 								
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="<?php echo base_url('mahatotech/assets/images/m3.jpg'); ?>" alt="First slide">
-				<div class="carousel-caption text-center">
-					<h1 class="display-2 font-weight-bold">Mobile Apps</h1>
+				<img src="<?php echo base_url('mahatotech/assets/images/m3x.jpg'); ?>" alt="First slide">
+				<div class="carousel-caption text-left">
+					<h1 class="display-2 text-lowercase">Mobile Apps</h1>
 					<p class="lead">Launch mobile apps on the most popular platforms today tailored according to your needs.</p>				
 					<a href="<?php echo base_url().'mobile-app'?>" class = "btn btn-outline-default font-weight-bold">Learn more</a>
 							
@@ -170,7 +170,7 @@
 		<div class="row align-items-sm-baseline">
 			<div class = "col-sm-6">
 				<h3 class="font-weight-bold">Ready for engagement?</h3>
-				<p>
+				<p class="lead">
 					Our team is always ready to help you with your idea whether your concern is not being able to plan the right platform for your business or the budget. <br>
 					Fill out this form to book a free consultation with our team.  
 				</p>
@@ -187,6 +187,11 @@
 					<div class="form-group row">
 						<div class="col-sm-10">
 							<input type="text" class="form-control" id="inputPassword3" placeholder="Last Name *">
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputPassword3" placeholder="Someone@example.com">
 						</div>
 					</div>
 					<div class="form-group row">
