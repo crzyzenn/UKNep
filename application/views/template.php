@@ -11,7 +11,11 @@
 	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/all.js'); ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/nav.js'); ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/bootstrap.bundle.js'); ?>"></script>
+		<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/notify.js'); ?>"></script>
+			<script type="text/javascript" src="<?php echo base_url('mahatotech/assets/js/prettify.js'); ?>"></script>
 	<link rel="stylesheet" href="<?php echo base_url('mahatotech/assets/css/style.css'); ?>">
+	<link rel="stylesheet" href="<?php echo base_url('mahatotech/assets/css/notify.css'); ?>">
+	<link rel="stylesheet" href="<?php echo base_url('mahatotech/assets/css/prettify.css'); ?>">
 	<link rel="stylesheet" href="<?php echo base_url('mahatotech/assets/css/hamburgers.css'); ?>">
 
 	<!-- Structured data -->
@@ -321,14 +325,6 @@
 	</footer>
 
 
-	<!-- This website is under construction message -->	
-	<div class="alert alert-warning alert-dismissible fixed-bottom text-center" style = "margin-bottom: 0;" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-			<span aria-hidden="true">&times;</span>
-			<span class="sr-only">Close</span>
-		</button>
-		<i class="fas fa-exclamation-triangle"></i> This site is under construction. Some features might not be working!
-	</div>
 
 
 

@@ -97,4 +97,84 @@ $(window).on('load', function(){
 
 
 
+
+
+    // Contact form 
+
+    $('#contact-form').on('submit', function(event) {    	
+    	var fname = $('#fname').val();
+    	var lname = $('#lname').val();
+    	var email = $('#email').val();
+    	var details = $('#details').val();
+
+    	if(fname == ""){
+    		errorMsg("First name field cannot be empty!");
+    	}
+    	else if(lname == ""){
+ 			errorMsg("Last name field cannot be empty!");
+    	}
+    	else if(details == ""){
+			errorMsg("Please mention a few details on the project!"); 
+    	}
+
+    	else if(!email.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/)){
+    		errorMsg("Please use a valid email address!");		
+    	}
+    	else{
+    		$('.loading-div').css('visibility', 'visible');
+    	
+	    	$.ajax({
+	    		url: 'contact/sendMail',
+	    		type: 'POST',    		
+	    		data: {
+					fname : fname, 
+					lname : lname, 
+					email : email, 
+					details : details				
+				},
+	    	})
+	    	.done(function(msg) {
+	    		console.log(msg);  
+	    		$.notify("<h3>" + "Success" + "</h3><hr><p>" + msg + "</p>", {
+	    			animationType:"drop", 
+	    			align:"center", 
+	    			verticalAlign: "top", 
+	    			close: "true",     			
+	    			blur: 0.5, 
+	    			delay:0
+
+	    		});  		
+	    	})
+	    	.fail(function(msg) {
+	    		console.log(msg);
+	    		errorMsg("An error has occured! Please try again later.");  
+
+	    	})
+	    	.always(function(msg) {
+	    		console.log(msg);
+	    		$('.loading-div').css('visibility', 'hidden');
+	    	});
+	    	
+    	}
+    	return false;
+    	
+    	
+    });
+
+    function errorMsg(msg){
+    	    		$.notify(msg, {
+	    			animationType:"drop", 
+	    			align:"right", 
+	    			verticalAlign: "top", 
+	    			type: "danger",
+	    			blur: 0.1, 
+	    			delay:2000,
+	    			color: "#fff", 
+	    			background: "#D44950"	
+
+	    		});
+    }
+
+
+
 }); 

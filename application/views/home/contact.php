@@ -27,42 +27,41 @@
 <div class="jumbotron jumbotron-fluid bg-light">
 	<div class="container text-center">
 		<br>
-		<?php echo form_open('contact/send', 'GET'); ?>
-			<div class="form-group">
+		<form id = "contact-form">
+					<div class="form-group row">
+						
+						<div class="col-sm-12">
+							<input type="text" class="form-control" id="fname" placeholder="First Name *">
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-12">
+							<input type="text" class="form-control" id="lname" placeholder="Last Name *">
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-12">
+							<input type="text" class="form-control" id="email" placeholder="Someone@example.com">
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-12">
+							<textarea cols="12" rows="6" id = "details" class="form-control" placeholder="Enquiry"></textarea>
+						</div>
+					</div>
+					
+					
+					<div class="form-group row">
+						<div class="col-sm-12">
+							<button type="submit" class="btn btn-secondary col-sm-12">Submit</button>
+						</div>
+					</div>
+				</form>
 				
-				<div class="col-sm-12">
-					<?php echo form_input('fname', '', ['placeholder'=>'First name', 'class' => 'form-control']); ?>
-					
-					    <?php echo form_error('fname', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
-					
+				<div class="col-sm-12 text-center loading-div">
+					<img src="<?php echo base_url('mahatotech/assets/images/loader.gif') ?>" alt="">								
 				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-12">
-					<?php echo form_input('lname', '', ['placeholder'=>'Last name', 'class' => 'form-control']); ?>
-					<?php echo form_error('lname', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-12">
-					<?php echo form_input('email', '', ['placeholder'=>'Someone@example.com', 'class' => 'form-control']); ?>
-					<?php echo form_error('email', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
-				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-sm-12">
-					<?php echo form_textarea('details', '', ['rows' => '10', 'cols' => '10', 'placeholder'=>'Enquiries', 'class' => 'form-control']); ?>
-					<?php echo form_error('details', '<div class="alert alert-danger" role="alert">', '</div>'); ?>
-					
-				</div>
-			</div>
-			
-			<div class="form-group">
-				<div class="col-sm-12 text-left">
-					<button type="submit" class="btn btn-secondary">Submit</button>
-				</div>
-			</div>
-		<?php echo form_close(); ?>
+
 	</div>
 </div>
 

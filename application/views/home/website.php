@@ -388,36 +388,41 @@
 			
 		</div>	
 		<div class = "container col-sm-6" style="padding: 2em">
-			<form>
-				<div class="form-group row">
-					
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="inputEmail3" placeholder="First Name *">
-					</div>
-				</div>
-				<div class="form-group row">
-					<div class="col-sm-10">
-						<input type="text" class="form-control" id="inputPassword3" placeholder="Last Name *">
-					</div>
-				</div>
-				<div class="form-group row">
+			<form id = "contact-form">
+					<div class="form-group row">
+						
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="inputPassword3" placeholder="Someone@example.com">
+							<input type="text" class="form-control" id="fname" placeholder="First Name *">
 						</div>
 					</div>
-				<div class="form-group row">
-					<div class="col-sm-10">
-						<textarea cols="12" rows="6" class="form-control" placeholder="Project details"></textarea>
+					<div class="form-group row">
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="lname" placeholder="Last Name *">
+						</div>
 					</div>
-				</div>
-				
-				
-				<div class="form-group row">
-					<div class="col-sm-12">
-						<button type="submit" class="btn btn-secondary col-sm-10">Submit</button>
+					<div class="form-group row">
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="email" placeholder="Someone@example.com">
+						</div>
 					</div>
+					<div class="form-group row">
+						<div class="col-sm-10">
+							<textarea cols="12" rows="6" id = "details" class="form-control" placeholder="Enquiry"></textarea>
+						</div>
+					</div>
+					
+					
+					<div class="form-group row">
+						<div class="col-sm-12">
+							<button type="submit" class="btn btn-secondary col-sm-10">Submit</button>
+						</div>
+					</div>
+				</form>
+				
+				<div class="col-sm-10 text-center loading-div">
+					<img src="<?php echo base_url('mahatotech/assets/images/loader.gif') ?>" alt="">								
 				</div>
-			</form>
+
 			
 		</div>	
 

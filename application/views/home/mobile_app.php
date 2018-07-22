@@ -248,62 +248,40 @@
 		<!-- List of values -->
 		<div class = "row custom">
 			
-			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<div class="col-sm-4">
+				<h4 class="text-left font-weight-bold">Quality</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
+					We strive to provide quality work to our customers. We solve problems and help your business achieve its goals regardless of the project complexity. 
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<h4 class="text-left font-weight-bold">Teamwork</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
+					Having a good teamwork is essential for any project big or small. Therefore, having a healthy relationship between team members is the key for the success of our projects. 
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<h4 class="text-left font-weight-bold">Customer Commitment</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
+					Our customers are at the heart of what we do. We always listen to our customers and what they need and provide solutions that benefits their brand and their customers. 
+
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<h4 class="text-left font-weight-bold">Business Growth</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
+					Whatever applications we create for our customers, our end goal is to make sure that our work helps their business grow sustainably and maintain their ROI.
 				</p>
 			</div>
 
 			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
+				<h4 class="text-left font-weight-bold">Respect others</h4>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.
-				</p>
-			</div>
+					We are always polite with our customers and help them with what they need to achieve their business goals. 
 
-			<div class="col-sm-4">
-				<p class="text-left font-weight-bold">Value Heading</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat.
 				</p>
 			</div>
@@ -329,26 +307,26 @@
 				
 			</div>	
 			<div class = "container col-sm-6" style="padding: 2em">
-				<form>
+				<form id = "contact-form">
 					<div class="form-group row">
 						
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="inputEmail3" placeholder="First Name *">
+							<input type="text" class="form-control" id="fname" placeholder="First Name *">
 						</div>
 					</div>
 					<div class="form-group row">
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="inputPassword3" placeholder="Last Name *">
+							<input type="text" class="form-control" id="lname" placeholder="Last Name *">
 						</div>
 					</div>
 					<div class="form-group row">
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="inputPassword3" placeholder="Someone@example.com">
+							<input type="text" class="form-control" id="email" placeholder="Someone@example.com">
 						</div>
 					</div>
 					<div class="form-group row">
 						<div class="col-sm-10">
-							<textarea cols="12" rows="6" class="form-control" placeholder="Enquiry"></textarea>
+							<textarea cols="12" rows="6" id = "details" class="form-control" placeholder="Enquiry"></textarea>
 						</div>
 					</div>
 					
@@ -359,6 +337,11 @@
 						</div>
 					</div>
 				</form>
+				
+				<div class="col-sm-10 text-center loading-div">
+					<img src="<?php echo base_url('mahatotech/assets/images/loader.gif') ?>" alt="">								
+				</div>
+
 				
 			</div>	
 

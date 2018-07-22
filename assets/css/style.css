@@ -626,6 +626,14 @@
 }
 
 
+.loading-div img{
+  width: 15%;  
+}
+
+.loading-div{
+  visibility: hidden;
+}
+
 
 /* End of mobile app page */
 
